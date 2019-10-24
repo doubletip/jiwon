@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>풍남문</title>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/sub2-3.css">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo:400,700&display=swap" rel="stylesheet">
+    
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+    	new WOW().init();
+    </script>
+	
+
+	
+	<script type="text/javascript">
+
+		$(document).ready(function(){
+			
+		 $("header").load("index_header.html");
+			
+            $(".quick_top").css({"opacity":"0","transition":"0.5s"})
+			var menu = $(".quick_top");
+            var contents = $(".scroll_num");
+            menu.click(function(event) {
+                event.preventDefault(); /*기존의 성질을 삭제*/
+
+                var tg = $(this);
+                var i = tg.index();
+
+                var section = contents.eq(i);
+                var tt = section.offset().top;
+
+
+
+                $('html, body').stop().animate({
+                    scrollTop: 0
+                }, 1000);
+            });
+
+            $(document).scroll(function() {
+                var sct = $(document).scrollTop();
+
+                contents.each(function() {
+                    var tg = $(this);
+                    var i = tg.index();
+
+                    if (tg.offset().top <= sct) {
+
+
+                        if (i == 0) {
+                            
+							$(".quick_top").css({"opacity":"0","transition":"0.5s"})
+                        }
+                        if (i > 0) {
+							$(".quick_top").css({"opacity":"1","transition":"0.5s"})
+                    
+                        }
+                    }
+
+                });
+            });
+			
+		
+			
+		});
+		
+		
+		$(document).ready(function(){
+			$("footer").load("index_footer.html");
+		});
+		
+		
+	
+	</script>
+	
+	
+</head>
+<body>
+	<!--header-->
+	<div id="cvcv">
+		<header class="scroll_num"></header>
+		    	<div class="quick_menu">
+		    		<ul class="quick_icon">
+		    			<li class="instagram">
+		    				<a href="#" class="insta"><i class="fa fa-instagram"></i></a>
+		    				<span class="quick_txt in">인스타그램</span>
+		    			</li>
+		    			<li class="twitter">
+		    				<a href="#" class="twit" ><i class="fa fa-twitter"></i></a>
+		    				<span class="quick_txt tw">트위터</span>
+		    			</li>
+		    			<li class="youtube">
+		    				<a href="#" class="youtu"><i class="fa fa-youtube"></i></a>
+		    				<span class="quick_txt yu">유튜브</span>
+		    			</li>
+		    			<li class="facebook">
+		    				<a href="#" class="fabook"><i class="fa fa-facebook-square"></i></a>
+		    				<span class="quick_txt fb">페이스북</span>
+		    			</li>
+		    		</ul>
+		    		<div class="quick_top">TOP</div>
+		    	</div>
+		    	<div class="m_qt">TOP</div>
+	</div>
+    	
+    	<div class="t_bg scroll_num">
+    		<h2>관광지</h2>
+    		<p>HOME > 관광지 > 풍남문</p>
+    	</div>
+    	
+    	<section>
+    		<div id="section_1">
+    			<h2>풍남문</h2>	
+    		</div>
+    		
+    		<div id="section_2">
+    			<div class="s2">
+    				<div class="s2_img">
+    					<img src="images/pnm/pnm1.png" alt="">
+    				</div>
+    			</div>
+    		</div>
+    		
+    		<div id="section_3">
+    			<div class="s3">
+    				<div class="s3_bxtxt wow slideInLeft">
+    					<h3>풍남문</h3>
+    					<p>전주를 상징하는 전주 풍남문은 원래 전주부성의 4대문 가운데 남문으로 고려 공양왕 원년인 서기 1389년 전라관찰사 최유경이 전주부성과 함께 창건했다. 건축양태는 조선 후기의 문루 형식으로 비교적 잘 보존되어 있는 형태로 지목되고 있다. 원래 도성이나 읍성,산성 등은 으레 성문이 있기 마련이고 그 위에 문루를 세우는 것이 중요한 형식이자 관례로 되어 있다.</p>
+    				</div>
+    				<div class="s3_onlytxt wow slideInRight" data-wow-delay = "0.3s">
+    					<p>
+    				        1905년 조선통감부의 폐성려에 의해 전주부성 4대문중 풍남문만 제외한 3대문이 동시에 처럭되는 수난을 겪었다. 1978년 문루를 보수하고, 1980년 종각과 포루, 전주 풍남문 바깥쪽 출성인 옹성을 복원하여 현재의 모습을 찾았다. 전주 풍남문은 전주사랃믈에게 전주를 대표하는 일종의 상징물이다. 전주 풍남문에는 풍남문이라는 고유의 이름 외에 "명건루"라는 별호가 있다. 전주 풍남문을 중심으로 전주한옥마을과 남부시장이 연결된다.
+    					</p>
+    					<p>
+    				        풍남문은 전주 남부시장쪽 파묻혀 있는 모습이라 과거엔 전주에 처음 놀러온 사람이라면 겅기전과 전동성당만 보고 가버리는 경우가 많았다. 사실 풍남문을 둘러싼 길가에는 전부 상점들이 들어차있어 일반적인 문화재를 생각하고 찾는다면 구경하기도 불편하고 답답한 느낌을 받을 수도 있었는데, 최근들어 주변 건물을 전주시가 매입해 허무는 사업이 시작돼 앞으로 사정이 좋아질 듯 하다.
+    					</p>
+    					<p>
+    				        실제로 한옥마을과 경기전, 전동성당에서 사거리로 나오면 바로 풍남문이 보인다.
+    					</p>
+    				</div>
+    				
+    				<div class="s3_2img">
+    					<ul>
+    						<li><img src="images/pnm/pnm2.png" alt=""></li>
+    						<li><img src="images/pnm/pnm3.png" alt=""></li>
+    					</ul>
+    				</div>
+    				
+    				<div class="s3_2txt wow fadeInUp">
+    					<p>문루 옆에는 종루가 있다. 현재 걸려 있는 종의 이름 전주의 옛 명칭인 '완산'을 따서 '완산종'으로 불리고 있으며 1977년부터 진행된 전주시민들의 모금을 통해 만들어졌다. 풍남문 옆 종루에 종이 걸린것은 1980년 전국체육대회의 전주 개최를 기념해 타종한 이후 현재까지 전주시에서 열리는 크고 작은 행사 때마다 타종이 진행되고 있다.</p>
+    				</div>
+    				
+    				
+    				
+    				
+    				
+    			 <div id="section_4">
+    			 	<div class="swiper-container sub">
+    			 	    <div class="swiper-wrapper sub">
+    			 	      <div class="swiper-slide sub"><img src="images/pnm/pnm4.png" alt="">
+    			 	      <div class="swtxt1">
+    			 	      풍남문의 외각 기와의 모습이다.
+    			 	      </div></div>
+    			 	      <div class="swiper-slide sub"><img src="images/pnm/pnm5.png" alt="">
+    			 	      <div class="swtxt1">
+    			 	      	풍남문의 야경
+    			 	      </div></div>
+    			 	      <div class="swiper-slide sub"><img src="images/pnm/pnm6.png" alt="">
+    			 	      <div class="swtxt1">
+    			 	          풍남문의 야경
+    			 	      </div></div>
+    			 	      <div class="swiper-slide sub"><img src="images/pnm/pnm7.png" alt="">
+    			 	      <div class="swtxt1">
+    			 	       날이 맑은 날 풍남문의 외관 모습이다.
+    			 	      </div></div>
+    			 	    </div>
+    			 	    <div class="swiper-button-next sub"></div>
+    			 	    <div class="swiper-button-prev sub"></div>
+    			 	  </div>
+    			 </div>
+
+   <script>
+    var swiper = new Swiper('.swiper-container.sub', {
+      spaceBetween: 0,
+      centeredSlides: true,
+	  loop:true,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next.sub',
+        prevEl: '.swiper-button-prev.sub',
+      },
+    });
+  </script>			
+    	
+    				
+    				
+    				
+    				
+    				
+    				
+    			</div>		
+    	</div>
+	
+    	</section>
+
+  
+  	
+      
+      
+
+		
+
+	<footer id="footer"></footer>
+	
+	
+	<script>
+		$(document).ready(function(){
+			
+				$(".instagram").mouseover(function(){
+				$(".in").css("opacity","1");
+			});
+			
+			$(".instagram").mouseleave(function(){
+				$(".in").css("opacity","0");
+			});
+			
+			$(".twitter").mouseover(function(){
+				$(".tw").css("opacity","1");
+			});
+			
+			$(".twitter").mouseleave(function(){
+				$(".tw").css("opacity","0");
+			});
+			
+			$(".youtube").mouseover(function(){
+				$(".yu").css("opacity","1");
+			});
+			
+			$(".youtube").mouseleave(function(){
+				$(".yu").css("opacity","0");
+			});
+			
+			$(".facebook").mouseover(function(){
+				$(".fb").css("opacity","1");
+			});
+			
+			$(".facebook").mouseleave(function(){
+				$(".fb").css("opacity","0");
+			});
+			$(".m_qt").click(function(){
+				$("html,body").animate({scrollTop:0},500);
+			});
+	
+		});
+		
+		
+	</script>
+	
+	
+</body>
+</html>

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>경기전</title>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/sub2-2.css">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo:400,700&display=swap" rel="stylesheet">
+    
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+    	new WOW().init();
+    </script>
+	
+
+	
+	<script type="text/javascript">
+
+		$(document).ready(function(){
+			
+		 $("header").load("index_header.html");
+			
+            $(".quick_top").css({"opacity":"0","transition":"0.5s"})
+			var menu = $(".quick_top");
+            var contents = $(".scroll_num");
+            menu.click(function(event) {
+                event.preventDefault(); /*기존의 성질을 삭제*/
+
+                var tg = $(this);
+                var i = tg.index();
+
+                var section = contents.eq(i);
+                var tt = section.offset().top;
+
+
+
+                $('html, body').stop().animate({
+                    scrollTop: 0
+                }, 1000);
+            });
+
+            $(document).scroll(function() {
+                var sct = $(document).scrollTop();
+
+                contents.each(function() {
+                    var tg = $(this);
+                    var i = tg.index();
+
+                    if (tg.offset().top <= sct) {
+
+
+                        if (i == 0) {
+                            
+							$(".quick_top").css({"opacity":"0","transition":"0.5s"})
+                        }
+                        if (i > 0) {
+							$(".quick_top").css({"opacity":"1","transition":"0.5s"})
+                    
+                        }
+                    }
+
+                });
+            });
+			
+		
+			
+		});
+		
+		
+		$(document).ready(function(){
+			$("footer").load("index_footer.html");
+		});
+		
+		
+	
+	</script>
+	
+	
+</head>
+<body>
+	<!--header-->
+	<div id="cvcv">
+		<header class="scroll_num"></header>
+		    	<div class="quick_menu">
+		    		<ul class="quick_icon">
+		    			<li class="instagram">
+		    				<a href="#" class="insta"><i class="fa fa-instagram"></i></a>
+		    				<span class="quick_txt in">인스타그램</span>
+		    			</li>
+		    			<li class="twitter">
+		    				<a href="#" class="twit" ><i class="fa fa-twitter"></i></a>
+		    				<span class="quick_txt tw">트위터</span>
+		    			</li>
+		    			<li class="youtube">
+		    				<a href="#" class="youtu"><i class="fa fa-youtube"></i></a>
+		    				<span class="quick_txt yu">유튜브</span>
+		    			</li>
+		    			<li class="facebook">
+		    				<a href="#" class="fabook"><i class="fa fa-facebook-square"></i></a>
+		    				<span class="quick_txt fb">페이스북</span>
+		    			</li>
+		    		</ul>
+		    		<div class="quick_top">TOP</div>
+		    	</div>
+		    	<div class="m_qt">TOP</div>
+	</div>
+    	
+    	<div class="t_bg scroll_num">
+    		<h2>관광지</h2>
+    		<p>HOME > 관광지 > 경기전</p>
+    	</div>
+    	
+    	<section>
+    		<div id="section_1">
+    			<h2>경기전</h2>	
+    		</div>
+    		
+    		<div id="section_2">
+    			<div class="s2">
+    				<div class="s2_img">
+    					<img src="images/gkj/gkj1.png" alt="">
+    				</div>
+    			</div>
+    		</div>
+    		
+    		<div id="section_3">
+    			<div class="s3">
+    				<div class="s3_bxtxt wow slideInLeft">
+    					<h3>경기전</h3>
+    					<p>조선왕조를 건국한 태조 이성계의 초상화를 모신 곳으로 태종이 1410년 어용전이라는 이름으로 완신과, 계림, 평양 등 세 곳에 창건하였는데 1442년에 완산의 어용전을 경기전이라고 정하였다. 1597년 정유재란 때 소실되었다가 1614년 중건했으며,1872년 태조 어진을 새롭게 모사하여 봉안하면서 보수가 이루어졌다.</p>
+    				</div>
+    				<div class="s3_onlytxt wow slideInRight" data-wow-delay = "0.3s">
+    					<p>
+    				        일제 시대에 경기전의 서쪽 부지와 부속 건물을 철거해서 일본인 소학교를 세우면서 부지의 절반이 잘려 나가고, 경기전 건물의 모습은 홍살문을 지나 외삼문과 내삼문을 연결하년 간결한 구조로 이루어져 있다.
+    					</p>
+    					<p>
+    						본전은 남향한 다포식 맞배집 건물로, 높게 돋우어 쌓은 석축 위에 앞면 3칸, 옆면 3칸으로 세웠는데 건물 안의 세 번째 기둥렬에 고주를 세우고 그 가운데 단을 놓았다. 이 단 양 옆에는 일산과 천개를 세웠다. 본전 앞에 내단 헌은 본전보다 한 단 낮게 쌓은 석축 기단 위에 4개의 기둥을 세우고 2익공식 포작을 짜올린 맞배지붕 건물이다. 본전과 헌이 이루는 구성은 왕릉에 제세를 지내려고 세운 정자각의 구성과 같다. 또한, 본전 양 옆에는 2칸, 무 4칸이 있다.
+    					</p>
+    					<p>
+    						내삼문은 앞면 3칸, 옆면 2칸으로 된 3문으로 그 양 옆에 익랑 2칸을 두었다. 외삼문은 앞면 3칸, 옆면 1칸인 맞배지붕 건물로 익랑을 두지 않았으며, 옆면 가운데에 사이기둥을 세워 삼문을 달았다.
+    					</p>
+    				</div>
+    				
+    				<div class="s3_2img">
+    					<ul>
+    						<li><img src="images/gkj/gkj2.png" alt=""></li>
+    						<li><img src="images/gkj/gkj3.png" alt=""></li>
+    					</ul>
+    				</div>
+    				
+    				<div class="s3_2txt wow fadeInUp">
+    					<p>조용히 산책하다 보면 태조 이성계의 4대 목조 이안사가 살았던 곳을 표시한 자만 동금표와 푸른 하늘과 함께 전주 시내를 한눈에 살펴볼 수 있는 벽 근처에 있는 오목대와 이목대가 있어 문화재 탐방코스로도 많은 호응을 얻고 있다.</p>
+    				</div>
+    				
+    				
+    				
+    				
+    				
+    			 <div id="section_4">
+    			 	<div class="swiper-container sub">
+    			 	    <div class="swiper-wrapper sub">
+    			 	      <div class="swiper-slide sub"><img src="images/gkj/gkj4.png" alt="">
+    			 	      <div class="swtxt1">
+    			 	      경기전 안으로 들어간 후의 모습이다.
+    			 	      </div></div>
+    			 	      <div class="swiper-slide sub"><img src="images/gkj/gkj5.png" alt="">
+    			 	      <div class="swtxt1">
+    			 	      	경기전 안의 풍경으로 산책을 할 수 있는 산책로가 있다.
+    			 	      </div></div>
+    			 	      <div class="swiper-slide sub"><img src="images/gkj/gkj6.png" alt="">
+    			 	      <div class="swtxt1">
+    			 	          경기전 안의 신도 입구이다.
+    			 	      </div></div>
+    			 	      <div class="swiper-slide sub"><img src="images/gkj/gkj7.png" alt="">
+    			 	      <div class="swtxt1">
+    			 	       경기전으로 입장 할 수 있는 매표소이다.
+    			 	      </div></div>
+    			 	    </div>
+    			 	    <div class="swiper-button-next sub"></div>
+    			 	    <div class="swiper-button-prev sub"></div>
+    			 	  </div>
+    			 </div>
+
+   <script>
+    var swiper = new Swiper('.swiper-container.sub', {
+      spaceBetween: 0,
+      centeredSlides: true,
+	  loop:true,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next.sub',
+        prevEl: '.swiper-button-prev.sub',
+      },
+    });
+  </script>			
+    	
+    				
+    				
+    				
+    				
+    				
+    				
+    			</div>		
+    	</div>
+	
+    	</section>
+
+  
+  	
+      
+      
+
+		
+
+	<footer id="footer"></footer>
+	
+	
+	<script>
+		$(document).ready(function(){
+			
+				$(".instagram").mouseover(function(){
+				$(".in").css("opacity","1");
+			});
+			
+			$(".instagram").mouseleave(function(){
+				$(".in").css("opacity","0");
+			});
+			
+			$(".twitter").mouseover(function(){
+				$(".tw").css("opacity","1");
+			});
+			
+			$(".twitter").mouseleave(function(){
+				$(".tw").css("opacity","0");
+			});
+			
+			$(".youtube").mouseover(function(){
+				$(".yu").css("opacity","1");
+			});
+			
+			$(".youtube").mouseleave(function(){
+				$(".yu").css("opacity","0");
+			});
+			
+			$(".facebook").mouseover(function(){
+				$(".fb").css("opacity","1");
+			});
+			
+			$(".facebook").mouseleave(function(){
+				$(".fb").css("opacity","0");
+			});
+			$(".m_qt").click(function(){
+				$("html,body").animate({scrollTop:0},500);
+			});
+	
+		});
+		
+		
+	</script>
+	
+	
+</body>
+</html>

@@ -1,0 +1,43 @@
+@charset "utf-8";
+@font-face {
+            font-family: 'NanumSquareR';
+            src: url('../fonts/NanumSquareR.ttf'),
+                url('../fonts/NanumSquareR.eot');
+}
+@font-face {
+            font-family: 'NanumSquareB';
+            src: url('../fonts/NanumSquareB.ttf'),
+                url('../fonts/NanumSquareB.eot');
+}
+@font-face {
+            font-family: 'NanumSquareEB';
+            src: url('../fonts/NanumSquareEB.ttf'),
+                url('../fonts/NanumSquareB.eot');
+}
+
+
+footer {text-align: center; background: black; height: 200px; padding: 15px 0px 40px 0px; bottom: 0; color: white; margin: 0 auto; position: relative;}
+
+.footer_t  {margin: 8px 0 10px;}
+.footer_t  li {display: inline-block; margin: 0 13px; font-size: 0.8vw;}
+.footer_t  li a {display: inline-block;}
+
+.footer_m  {margin: 15px 0 25px;}
+.footer_m  li {display: inline-block; margin: 0 13px; font-size: 0.7vw;}
+
+#footer > p {border-top:1px solid #eee; display: block; padding-top: 30px; font-size: 0.8vw;}
+
+
+
+@media all and (min-width:800px) and (max-width:1199px){
+	.footer_t li {font-size: 1.2vw;}
+	.footer_m li {font-size: 1.1vw;}
+	#footer > p {font-size: 1vw;}
+	footer {height: 250px; padding: 20px 0px 40px 0px;}
+}
+@media all and (min-width:401px) and (max-width:800px){
+	.footer_t li {font-size: 1.5vw;}
+	.footer_m li {font-size: 1.4vw;}
+	#footer > p {font-size: 1.3vw;}
+	footer {height: 200px; padding: 10px 0px 20px 0px;}
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>로그인</title>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo:400,700&display=swap" rel="stylesheet">
+    
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+
+
+
+	
+	<script type="text/javascript">
+		$(document).ready(function(){
+			
+		 $("header").load("index_header.html");	
+         $("footer").load("index_footer.html");
+		});
+	
+	</script>
+	
+	
+</head>
+<body>
+	<!--header-->
+	<div id="cvcv">
+		<header class="scroll_num"></header>
+	</div>
+    
+        <div id="login_area">
+           <h2>전주한옥마을에 오신것을 환영합니다.</h2>
+           <p class="maintxt">로그인 하셔서 저희의 서비스를 이용해보세요.</p>
+            <div class="login_img">
+                <img src="images/login.png" alt="">
+                <h3>지친 일상에서 벗어나</h3>
+                <p>새로운 충전이 필요할때 사랑하는 사람들과 함께 놀러오세요.</p>
+            </div>
+            <div class="login_form">
+                <div class="login_box">
+                    <h3 class="tit">로그인</h3>
+                    <div class="form_list">
+                        <div class="input_id">
+                            <input type="id" id="userid" class="id" placeholder="아이디">
+                        </div>
+                        <div class="input_pw">
+                            <input type="password" id="userpw" class="pw" placeholder="비밀번호">
+                        </div>
+                        <button type="button" class="loginbutton">로그인</button>
+                    </div>
+                </div>
+                <div class="find_info">
+                    <a href="#" class="forget">아이디와 비밀번호를 잊으셨나요?</a>
+                    <a href="join.html" class="account">계정이 없으신가요?      <span class="account_bold"></span></a>
+                </div>
+            </div>
+        </div>
+    
+    
+	<footer id="footer"></footer>
+	
+	
+	
+	
+	
+</body>
+</html>

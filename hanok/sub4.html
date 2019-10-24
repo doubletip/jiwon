@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>뉴스</title>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/sub4.css">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo:400,700&display=swap" rel="stylesheet">
+    
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    
+    <script>
+    	new WOW().init();
+        
+    $(function(){
+        var i=0;
+        $(".n1").show();
+        $(".num_1").addClass("onClick");
+        $(".num_2").removeClass("onClick");
+        $(".num_3").removeClass("onClick");
+        $(".num_4").removeClass("onClick");
+        $(".num_5").removeClass("onClick");
+        $(".n2").hide();
+        $(".n3").hide();
+        $(".n4").hide();
+        $(".n5").hide();
+        
+        $(".front").click(function(){
+            $(".n1").show();
+            $(".num_1").addClass("onClick");
+            $(".num_2").removeClass("onClick");
+            $(".num_3").removeClass("onClick");
+            $(".num_4").removeClass("onClick");
+            $(".num_5").removeClass("onClick");
+            $(".n2").hide();
+            $(".n3").hide();
+            $(".n4").hide();
+            $(".n5").hide();
+        });
+        
+        $(".prev").click(function(){
+            switch(i){
+                case 1:
+                    i = 0;
+                    $(".n1").show();
+                    $(".num_1").addClass("onClick");
+                    $(".num_2").removeClass("onClick");
+                    $(".num_3").removeClass("onClick");
+                    $(".num_4").removeClass("onClick");
+                    $(".num_5").removeClass("onClick");
+                    $(".n2").hide();
+                    $(".n3").hide();
+                    $(".n4").hide();
+                    $(".n5").hide();
+                    break;
+                case 2:
+                    i = 1;
+                    $(".n2").show();
+                    $(".num_2").addClass("onClick");
+                    $(".num_1").removeClass("onClick");
+                    $(".num_3").removeClass("onClick");
+                    $(".num_4").removeClass("onClick");
+                    $(".num_5").removeClass("onClick");
+                    $(".n1").hide();
+                    $(".n3").hide();
+                    $(".n4").hide();
+                    $(".n5").hide();
+                    break;
+                case 3:
+                    i = 2;
+                    $(".n3").show();
+                    $(".num_3").addClass("onClick");
+                    $(".num_1").removeClass("onClick");
+                    $(".num_2").removeClass("onClick");
+                    $(".num_4").removeClass("onClick");
+                    $(".num_5").removeClass("onClick");
+                    $(".n1").hide();
+                    $(".n2").hide();
+                    $(".n4").hide();
+                    $(".n5").hide();
+                    break;
+                case 4:
+                    i = 3;
+                    $(".n4").show();
+                    $(".num_4").addClass("onClick");
+                    $(".num_1").removeClass("onClick");
+                    $(".num_2").removeClass("onClick");
+                    $(".num_3").removeClass("onClick");
+                    $(".num_5").removeClass("onClick");
+                    $(".n1").hide();
+                    $(".n2").hide();
+                    $(".n3").hide();
+                    $(".n5").hide();
+                    break;
+            }
+                    
+        });
+        
+        $(".num_1").click(function(){
+            i = 0;
+            $(".n1").show();
+            $(".num_1").addClass("onClick");
+            $(".num_2").removeClass("onClick");
+            $(".num_3").removeClass("onClick");
+            $(".num_4").removeClass("onClick");
+            $(".num_5").removeClass("onClick");
+            $(".n2").hide();
+            $(".n3").hide();
+            $(".n4").hide();
+            $(".n5").hide();
+        });
+        $(".num_2").click(function(){
+            i = 1;
+            $(".n2").show();
+            $(".num_2").addClass("onClick");
+            $(".num_1").removeClass("onClick");
+            $(".num_3").removeClass("onClick");
+            $(".num_4").removeClass("onClick");
+            $(".num_5").removeClass("onClick");
+            $(".n1").hide();
+            $(".n3").hide();
+            $(".n4").hide();
+            $(".n5").hide();
+        });
+        $(".num_3").click(function(){
+            i = 2;
+            $(".n3").show();
+            $(".num_3").addClass("onClick");
+            $(".num_1").removeClass("onClick");
+            $(".num_2").removeClass("onClick");
+            $(".num_4").removeClass("onClick");
+            $(".num_5").removeClass("onClick");
+            $(".n1").hide();
+            $(".n2").hide();
+            $(".n4").hide();
+            $(".n5").hide();
+        });
+        $(".num_4").click(function(){
+            i = 3;
+            $(".n4").show();
+            $(".num_4").addClass("onClick");
+            $(".num_1").removeClass("onClick");
+            $(".num_2").removeClass("onClick");
+            $(".num_3").removeClass("onClick");
+            $(".num_5").removeClass("onClick");
+            $(".n1").hide();
+            $(".n2").hide();
+            $(".n3").hide();
+            $(".n5").hide();
+        });
+        $(".num_5").click(function(){
+            i = 4;
+            $(".n5").show();
+            $(".num_5").addClass("onClick");
+            $(".num_1").removeClass("onClick");
+            $(".num_2").removeClass("onClick");
+            $(".num_3").removeClass("onClick");
+            $(".num_4").removeClass("onClick");
+            $(".n1").hide();
+            $(".n2").hide();
+            $(".n3").hide();
+            $(".n4").hide();
+        });
+        
+        $(".next").click(function(){
+            switch(i){
+                case 0:
+                    i = 1;
+                    $(".n2").show();
+                    $(".num_2").addClass("onClick");
+                    $(".num_1").removeClass("onClick");
+                    $(".num_3").removeClass("onClick");
+                    $(".num_4").removeClass("onClick");
+                    $(".num_5").removeClass("onClick");
+                    $(".n1").hide();
+                    $(".n3").hide();
+                    $(".n4").hide();
+                    $(".n5").hide();
+                    break;
+                case 1:
+                    i = 2;
+                    $(".n3").show();
+                    $(".num_3").addClass("onClick");
+                    $(".num_1").removeClass("onClick");
+                    $(".num_2").removeClass("onClick");
+                    $(".num_4").removeClass("onClick");
+                    $(".num_5").removeClass("onClick");
+                    $(".n1").hide();
+                    $(".n2").hide();
+                    $(".n4").hide();
+                    $(".n5").hide();
+                    break;
+                case 2:
+                    i = 3;
+                    $(".n4").show();
+                    $(".num_4").addClass("onClick");
+                    $(".num_1").removeClass("onClick");
+                    $(".num_2").removeClass("onClick");
+                    $(".num_3").removeClass("onClick");
+                    $(".num_5").removeClass("onClick");
+                    $(".n1").hide();
+                    $(".n2").hide();
+                    $(".n3").hide();
+                    $(".n5").hide();
+                    break;
+                case 3:
+                    i = 4;
+                    $(".n5").show();
+                    $(".num_5").addClass("onClick");
+                    $(".num_1").removeClass("onClick");
+                    $(".num_2").removeClass("onClick");
+                    $(".num_3").removeClass("onClick");
+                    $(".num_4").removeClass("onClick");
+                    $(".n1").hide();
+                    $(".n2").hide();
+                    $(".n3").hide();
+                    $(".n4").hide();
+                    break;
+            }
+                    
+        });
+        
+        $(".back").click(function(){
+            $(".n5").show();
+            $(".num_5").addClass("onClick");
+            $(".num_1").removeClass("onClick");
+            $(".num_2").removeClass("onClick");
+            $(".num_3").removeClass("onClick");
+            $(".num_4").removeClass("onClick");
+            $(".n1").hide();
+            $(".n2").hide();
+            $(".n3").hide();
+            $(".n4").hide();
+        });
+    });
+        
+    </script>
+	
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			
+		 $("header").load("index_header.html");
+			
+				    $(".quick_top").css({"opacity":"0","transition":"0.5s"})
+			var menu = $(".quick_top");
+            var contents = $(".scroll_num");
+            menu.click(function(event) {
+                event.preventDefault(); /*기존의 성질을 삭제*/
+
+                var tg = $(this);
+                var i = tg.index();
+
+                var section = contents.eq(i);
+                var tt = section.offset().top;
+
+
+
+                $('html, body').stop().animate({
+                    scrollTop: 0
+                }, 1000);
+            });
+
+            $(document).scroll(function() {
+                var sct = $(document).scrollTop();
+
+                contents.each(function() {
+                    var tg = $(this);
+                    var i = tg.index();
+
+                    if (tg.offset().top <= sct) {
+
+
+                        if (i == 0) {
+                            
+							$(".quick_top").css({"opacity":"0","transition":"0.5s"})
+                        }
+                        if (i > 0) {
+							$(".quick_top").css({"opacity":"1","transition":"0.5s"})
+                    
+                        }
+                    }
+
+                });
+            });
+			
+		
+			
+		});
+		
+		
+		$(document).ready(function(){
+			$("footer").load("index_footer.html");
+		});
+		
+		
+	
+	</script>
+	
+	
+</head>
+<body>
+	<!--header-->
+	<div id="cvcv">
+		<header class="scroll_num"></header>
+		    	<div class="quick_menu">
+		    		<ul class="quick_icon">
+		    			<li class="instagram">
+		    				<a href="#" class="insta"><i class="fa fa-instagram"></i></a>
+		    				<span class="quick_txt in">인스타그램</span>
+		    			</li>
+		    			<li class="twitter">
+		    				<a href="#" class="twit" ><i class="fa fa-twitter"></i></a>
+		    				<span class="quick_txt tw">트위터</span>
+		    			</li>
+		    			<li class="youtube">
+		    				<a href="#" class="youtu"><i class="fa fa-youtube"></i></a>
+		    				<span class="quick_txt yu">유튜브</span>
+		    			</li>
+		    			<li class="facebook">
+		    				<a href="#" class="fabook"><i class="fa fa-facebook-square"></i></a>
+		    				<span class="quick_txt fb">페이스북</span>
+		    			</li>
+		    		</ul>
+		    		<div class="quick_top">TOP</div>
+		    	</div>
+		    	<div class="m_qt">TOP</div>
+	</div>
+    	
+    	<div class="t_bg scroll_num">
+    		<h2>고객서비스</h2>
+    		<p>HOME > 고객서비스 > 뉴스 </p>
+    	</div>
+    	
+    	<section>
+    		<div id="section_1">
+    			<h2>뉴스</h2>	
+    		</div>
+    		
+    		<div id="section_2">
+    			<div class="searchbox">
+    				<form action="post" class="searcharea">
+    					<fieldset>
+    						<legend>게시물검색</legend>
+    						<select name="select1" id="select1" class="selectbox">
+    							<option value>전체</option>
+    							<option value="1">제목</option>
+    							<option value="2">내용</option>
+    						</select>
+    						<input type="text" class="text" title="검색어" placeholder="검색어를 입력하세요.">
+    						<i class="fa fa-search"></i>
+    					</fieldset>
+    				</form>
+    			</div>
+    		
+    		
+    		
+    			
+    			<table class="news n1">
+    				<thead>
+    					<tr>
+    						<td class="hnumber">NO</td>
+    						<td class="hname">제목</td>
+    						<td class="hdate">작성일</td>
+    					</tr>
+    				</thead>
+    				<tbody>
+    					<tr>
+    						<td class="number">50</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 10 - 11</td>
+    					</tr>
+    					<tr>
+    						<td class="number">49</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 10 - 10</td>
+    					</tr>
+    					<tr>
+    						<td class="number">48</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 10 - 9</td>
+    					</tr>
+    					<tr>
+    						<td class="number">47</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 10 - 8</td>
+    					</tr>
+    					<tr>
+    						<td class="number">46</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 10 - 7</td>
+    					</tr>
+    					<tr>
+    						<td class="number">45</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 10 - 6</td>
+    					</tr>
+    					<tr>
+    						<td class="number">44</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 10 - 5</td>
+    					</tr>
+    					<tr>
+    						<td class="number">43</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 10 - 4</td>
+    					</tr>
+    					<tr>
+    						<td class="number">42</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 10 - 3</td>
+    					</tr>
+    					<tr>
+    						<td class="number">41</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 10 - 2</td>
+    					</tr>
+    				</tbody>
+    			</table>
+    			
+    			<table class="news n2">
+    				<thead>
+    					<tr>
+    						<td class="hnumber">NO</td>
+    						<td class="hname">제목</td>
+    						<td class="hdate">작성일</td>
+    					</tr>
+    				</thead>
+    				<tbody>
+    					<tr>
+    						<td class="number">40</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 10 - 11</td>
+    					</tr>
+    					<tr>
+    						<td class="number">39</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 10 - 10</td>
+    					</tr>
+    					<tr>
+    						<td class="number">38</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 10 - 9</td>
+    					</tr>
+    					<tr>
+    						<td class="number">37</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 10 - 8</td>
+    					</tr>
+    					<tr>
+    						<td class="number">36</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 10 - 7</td>
+    					</tr>
+    					<tr>
+    						<td class="number">35</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 10 - 6</td>
+    					</tr>
+    					<tr>
+    						<td class="number">34</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 10 - 5</td>
+    					</tr>
+    					<tr>
+    						<td class="number">33</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 10 - 4</td>
+    					</tr>
+    					<tr>
+    						<td class="number">32</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 10 - 3</td>
+    					</tr>
+    					<tr>
+    						<td class="number">31</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 10 - 2</td>
+    					</tr>
+    				</tbody>
+    			</table>
+    			
+    			<table class="news n3">
+    				<thead>
+    					<tr>
+    						<td class="hnumber">NO</td>
+    						<td class="hname">제목</td>
+    						<td class="hdate">작성일</td>
+    					</tr>
+    				</thead>
+    				<tbody>
+    					<tr>
+    						<td class="number">30</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 10 - 1</td>
+    					</tr>
+    					<tr>
+    						<td class="number">29</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 9 - 30</td>
+    					</tr>
+    					<tr>
+    						<td class="number">28</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 9 - 29</td>
+    					</tr>
+    					<tr>
+    						<td class="number">27</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 9 - 28</td>
+    					</tr>
+    					<tr>
+    						<td class="number">26</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 9 - 27</td>
+    					</tr>
+    					<tr>
+    						<td class="number">25</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 9 - 26</td>
+    					</tr>
+    					<tr>
+    						<td class="number">24</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 9 - 25</td>
+    					</tr>
+    					<tr>
+    						<td class="number">23</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 9 - 24</td>
+    					</tr>
+    					<tr>
+    						<td class="number">22</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 9 - 23</td>
+    					</tr>
+    					<tr>
+    						<td class="number">21</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 9 - 22</td>
+    					</tr>
+    				</tbody>
+    			</table>
+    			
+    			<table class="news n4">
+    				<thead>
+    					<tr>
+    						<td class="hnumber">NO</td>
+    						<td class="hname">제목</td>
+    						<td class="hdate">작성일</td>
+    					</tr>
+    				</thead>
+    				<tbody>
+    					<tr>
+    						<td class="number">20</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 9 - 21</td>
+    					</tr>
+    					<tr>
+    						<td class="number">19</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 9 - 20</td>
+    					</tr>
+    					<tr>
+    						<td class="number">18</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 9 - 19</td>
+    					</tr>
+    					<tr>
+    						<td class="number">17</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 9 - 18</td>
+    					</tr>
+    					<tr>
+    						<td class="number">16</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 9 - 17</td>
+    					</tr>
+    					<tr>
+    						<td class="number">15</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 9 - 16</td>
+    					</tr>
+    					<tr>
+    						<td class="number">14</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 9 - 15</td>
+    					</tr>
+    					<tr>
+    						<td class="number">13</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 9 - 14</td>
+    					</tr>
+    					<tr>
+    						<td class="number">12</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 9 - 13</td>
+    					</tr>
+    					<tr>
+    						<td class="number">11</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 9 - 12</td>
+    					</tr>
+    				</tbody>
+    			</table>
+    			
+    			<table class="news n5">
+    				<thead>
+    					<tr>
+    						<td class="hnumber">NO</td>
+    						<td class="hname">제목</td>
+    						<td class="hdate">작성일</td>
+    					</tr>
+    				</thead>
+    				<tbody>
+    					<tr>
+    						<td class="number">10</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 9 - 11</td>
+    					</tr>
+    					<tr>
+    						<td class="number">9</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 9 - 10</td>
+    					</tr>
+    					<tr>
+    						<td class="number">8</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 9 - 9</td>
+    					</tr>
+    					<tr>
+    						<td class="number">7</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 9 - 8</td>
+    					</tr>
+    					<tr>
+    						<td class="number">6</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 9 - 7</td>
+    					</tr>
+    					<tr>
+    						<td class="number">5</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 9 - 6</td>
+    					</tr>
+    					<tr>
+    						<td class="number">4</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 9 - 5</td>
+    					</tr>
+    					<tr>
+    						<td class="number">3</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 9 - 4</td>
+    					</tr>
+    					<tr>
+    						<td class="number">2</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 9 - 3</td>
+    					</tr>
+    					<tr>
+    						<td class="number">1</td>
+    						<td class="name">공지사항입니다.</td>
+    						<td class="date">2019 - 9 - 2</td>
+    					</tr>
+    				</tbody>
+    			</table>
+    			
+    			<div class="page_num">
+    				<a href="#" class="front">
+    				</a>
+    				<a href="#" class="prev">
+    				</a>
+    				<a href="#" class="num_1">1</a>
+    				<a href="#" class="num_2">2</a>
+    				<a href="#" class="num_3">3</a>
+    				<a href="#" class="num_4">4</a>
+    				<a href="#" class="num_5">5</a>
+    				<a href="#" class="next">
+    				</a>
+    				<a href="#" class="back">
+    				</a>
+    			</div>
+    		</div>
+    	</section>
+
+  
+  	
+      
+      
+
+		
+
+	<footer id="footer"></footer>
+	
+	
+	<script>
+		$(document).ready(function(){
+			
+				$(".instagram").mouseover(function(){
+				$(".in").css("opacity","1");
+			});
+			
+			$(".instagram").mouseleave(function(){
+				$(".in").css("opacity","0");
+			});
+			
+			$(".twitter").mouseover(function(){
+				$(".tw").css("opacity","1");
+			});
+			
+			$(".twitter").mouseleave(function(){
+				$(".tw").css("opacity","0");
+			});
+			
+			$(".youtube").mouseover(function(){
+				$(".yu").css("opacity","1");
+			});
+			
+			$(".youtube").mouseleave(function(){
+				$(".yu").css("opacity","0");
+			});
+			
+			$(".facebook").mouseover(function(){
+				$(".fb").css("opacity","1");
+			});
+			
+			$(".facebook").mouseleave(function(){
+				$(".fb").css("opacity","0");
+			});
+			$(".m_qt").click(function(){
+				$("html,body").animate({scrollTop:0},500);
+			});
+	
+		});
+		
+		
+	</script>
+	
+	
+</body>
+</html>

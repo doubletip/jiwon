@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>한옥마을소개</title>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/sub1.css">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo:400,700&display=swap" rel="stylesheet">
+    
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+    	new WOW().init();
+    </script>
+	
+
+	
+	<script type="text/javascript">
+		$(document).ready(function(){
+			
+		 $("header").load("index_header.html");
+			
+				    $(".quick_top").css({"opacity":"0","transition":"0.5s"})
+			var menu = $(".quick_top");
+            var contents = $(".scroll_num");
+            menu.click(function(event) {
+                event.preventDefault(); /*기존의 성질을 삭제*/
+
+                var tg = $(this);
+                var i = tg.index();
+
+                var section = contents.eq(i);
+                var tt = section.offset().top;
+
+
+
+                $('html, body').stop().animate({
+                    scrollTop: 0
+                }, 1000);
+            });
+
+            $(document).scroll(function() {
+                var sct = $(document).scrollTop();
+
+                contents.each(function() {
+                    var tg = $(this);
+                    var i = tg.index();
+
+                    if (tg.offset().top <= sct) {
+
+
+                        if (i == 0) {
+                            
+							$(".quick_top").css({"opacity":"0","transition":"0.5s"})
+                        }
+                        if (i > 0) {
+							$(".quick_top").css({"opacity":"1","transition":"0.5s"})
+                    
+                        }
+                    }
+
+                });
+            });
+			
+		});
+		
+		$(document).ready(function(){
+			$("footer").load("index_footer.html");
+		});
+	
+	</script>
+	
+	
+</head>
+<body>
+	<!--header-->
+	<div id="cvcv">
+		<header class="scroll_num"></header>
+		    	<div class="quick_menu">
+		    		<ul class="quick_icon">
+		    			<li class="instagram">
+		    				<a href="#" class="insta"><i class="fa fa-instagram"></i></a>
+		    				<span class="quick_txt in">인스타그램</span>
+		    			</li>
+		    			<li class="twitter">
+		    				<a href="#" class="twit" ><i class="fa fa-twitter"></i></a>
+		    				<span class="quick_txt tw">트위터</span>
+		    			</li>
+		    			<li class="youtube">
+		    				<a href="#" class="youtu"><i class="fa fa-youtube"></i></a>
+		    				<span class="quick_txt yu">유튜브</span>
+		    			</li>
+		    			<li class="facebook">
+		    				<a href="#" class="fabook"><i class="fa fa-facebook-square"></i></a>
+		    				<span class="quick_txt fb">페이스북</span>
+		    			</li>
+		    		</ul>
+		    		<div class="quick_top">TOP</div>
+		    	</div>
+		    	<div class="m_qt">TOP</div>
+	</div>
+    	
+    	<div class="t_bg scroll_num">
+    		<h2>전주한옥마을</h2>
+    		<p>HOME > 전주한옥마을 > 한옥마을소개</p>
+    	</div>
+    	
+    	
+  
+  	<section>
+    		<div id="section_1">
+    			<h2>한옥마을소개</h2>
+    			<div class="s1">
+    				<div class="bgimage">
+    					<img src="images/s1_c1.png" alt="">
+    				</div>
+    				
+    				<div class="s1_box">
+    					<div class="s1_txt wow slideInRight">
+    						2017년 기준 연 1,100만명의 관광객이 다녀가는 전주한옥마을은 일제강점기 일본인들의 세력 확장에 대한 반발로 한국인들이 교동과 풍남동 일대에 근대식 한옥들을 짓기 시작하면서 발전했다.
+    					
+    					1996년 대한민국이 한일월드컵을 유치하고 이듬해 전주가 개최도시로 선정되면서 한옥마을은 다시 한 번 꿈틀거린다. 한옥마을 보존의 필요성이 대두되어 1999년 전통문화특구 기본 및 사업계획이 작성되었다. 세계인이 전주를 찾아올 때를 대비해 전통문화를 보존하고 보여줌으로써 전통문화도시 전주의 위상을 세계에 알리자는 의도였다. 보기 좋은 한옥들과 다양한 체험시설이 늘어나고 은행로에 실개천이 놓이는 등 크고 작은 변화를 거치면서 전주 한옥마을은 오늘에 이르렀다.
+    					
+    					2010년 전주는 국제슬로시티연맹으로부터 세계 최초 도시형 국제슬로시티로 선정되었고, 2016년 재지정되었다. 또한 2012년 유네스코 음식 창의 도시로 선정되었고, 2016년 론리플래닛이 선정한 ‘1년 안에 가봐야 할 아시아 10대 명소’에 3위로 선정되었다. 이에 발맞추어 전주한옥마을은 2014년 이후 해마다 국내 관광지 최상위에 올랐다. 전주한옥마을은 국제적인 문화관광의 명소가 되어 한 해 천만 명 이상의 관광객이 다녀가는 명실상부한 대한민국 대표 관광지, 국제적인 문화관광명소가 되었다.
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    		
+    		<div id="section_2">
+    			<div class="s2">
+    				<div class="s2_img">
+    						<img src="images/c2_1.png" alt="" class="i1 wow fadeInUp">
+    						<p class="i1_txt1 it_hover1 wow fadeInUp">한옥마을 거리</p>
+    					
+    						<img src="images/c2_2.png" alt="" class="i2 wow fadeInUp">
+    						<p class="i2_txt2 it_hover2 wow fadeInUp">한옥마을 전경</p>
+    					
+    						<img src="images/c2_3.png" alt="" class="i3 wow fadeInUp">
+    						<p class="i3_txt3 it_hover3 wow fadeInUp">풍남문</p>
+    					
+    						<img src="images/c2_4.png" alt="" class="i4 wow fadeInUp" data-wow-delay="0.3s">
+    						<p class="i4_txt4 it_hover1 wow fadeInUp" data-wow-delay="0.3s">자만벽화마을</p>
+    					
+    						<img src="images/c2_5.png" alt="" class="i5 wow fadeInUp" data-wow-delay="0.3s">
+    						<p class="i5_txt5 it_hover2 wow fadeInUp" data-wow-delay="0.3s">경기전</p>
+    					
+    						<img src="images/c2_6.png" alt="" class="i6 wow fadeInUp" data-wow-delay="0.3s">
+    						<p class="i6_txt6 it_hover3 wow fadeInUp" data-wow-delay="0.3s">전동성당</p>
+    					
+    						<img src="images/c2_7.png" alt="" class="i7 wow fadeInUp" data-wow-delay="0.3s">
+    						<p class="i7_txt7 it_hover1 wow fadeInUp" data-wow-delay="0.3s">한옥 집</p>
+    					
+    						<img src="images/c2_8.png" alt="" class="i8 wow fadeInUp" data-wow-delay="0.3s">
+    						<p class="i8_txt8 it_hover2 wow fadeInUp" data-wow-delay="0.3s">한복 체험</p>
+    					
+    						<img src="images/c2_9.png" alt="" class="i9 wow fadeInUp" data-wow-delay="0.3s">
+    						<p class="i9_txt9 it_hover3 wow fadeInUp" data-wow-delay="0.3s">한복 체험</p>
+    					
+    					
+    		  					
+    					
+    				</div>
+    			</div>
+    		</div>
+    		
+    		
+    		
+    	</section>
+
+      
+      
+
+		
+
+	<footer id="footer"></footer>
+	
+	
+	<script>
+		$(document).ready(function(){
+			
+				$(".instagram").mouseover(function(){
+				$(".in").css("opacity","1");
+			});
+			
+			$(".instagram").mouseleave(function(){
+				$(".in").css("opacity","0");
+			});
+			
+			$(".twitter").mouseover(function(){
+				$(".tw").css("opacity","1");
+			});
+			
+			$(".twitter").mouseleave(function(){
+				$(".tw").css("opacity","0");
+			});
+			
+			$(".youtube").mouseover(function(){
+				$(".yu").css("opacity","1");
+			});
+			
+			$(".youtube").mouseleave(function(){
+				$(".yu").css("opacity","0");
+			});
+			
+			$(".facebook").mouseover(function(){
+				$(".fb").css("opacity","1");
+			});
+			
+			$(".facebook").mouseleave(function(){
+				$(".fb").css("opacity","0");
+			});
+			$(".m_qt").click(function(){
+				$("html,body").animate({scrollTop:0},500);
+			});
+	
+		});
+		
+		
+	</script>
+	
+	
+</body>
+</html>

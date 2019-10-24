@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>자만벽화마을</title>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/sub2-1.css">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo:400,700&display=swap" rel="stylesheet">
+    
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+    	new WOW().init();
+    </script>
+	
+
+	
+	<script type="text/javascript">
+
+		$(document).ready(function(){
+			
+		 $("header").load("index_header.html");
+			
+            $(".quick_top").css({"opacity":"0","transition":"0.5s"})
+			var menu = $(".quick_top");
+            var contents = $(".scroll_num");
+            menu.click(function(event) {
+                event.preventDefault(); /*기존의 성질을 삭제*/
+
+                var tg = $(this);
+                var i = tg.index();
+
+                var section = contents.eq(i);
+                var tt = section.offset().top;
+
+
+
+                $('html, body').stop().animate({
+                    scrollTop: 0
+                }, 1000);
+            });
+
+            $(document).scroll(function() {
+                var sct = $(document).scrollTop();
+
+                contents.each(function() {
+                    var tg = $(this);
+                    var i = tg.index();
+
+                    if (tg.offset().top <= sct) {
+
+
+                        if (i == 0) {
+                            
+							$(".quick_top").css({"opacity":"0","transition":"0.5s"})
+                        }
+                        if (i > 0) {
+							$(".quick_top").css({"opacity":"1","transition":"0.5s"})
+                    
+                        }
+                    }
+
+                });
+            });
+			
+		
+			
+		});
+		
+		
+		$(document).ready(function(){
+			$("footer").load("index_footer.html");
+		});
+		
+		
+	
+	</script>
+	
+	
+</head>
+<body>
+	<!--header-->
+	<div id="cvcv">
+		<header class="scroll_num"></header>
+		    	<div class="quick_menu">
+		    		<ul class="quick_icon">
+		    			<li class="instagram">
+		    				<a href="#" class="insta"><i class="fa fa-instagram"></i></a>
+		    				<span class="quick_txt in">인스타그램</span>
+		    			</li>
+		    			<li class="twitter">
+		    				<a href="#" class="twit" ><i class="fa fa-twitter"></i></a>
+		    				<span class="quick_txt tw">트위터</span>
+		    			</li>
+		    			<li class="youtube">
+		    				<a href="#" class="youtu"><i class="fa fa-youtube"></i></a>
+		    				<span class="quick_txt yu">유튜브</span>
+		    			</li>
+		    			<li class="facebook">
+		    				<a href="#" class="fabook"><i class="fa fa-facebook-square"></i></a>
+		    				<span class="quick_txt fb">페이스북</span>
+		    			</li>
+		    		</ul>
+		    		<div class="quick_top">TOP</div>
+		    	</div>
+		    	<div class="m_qt">TOP</div>
+	</div>
+    	
+    	<div class="t_bg scroll_num">
+    		<h2>관광지</h2>
+    		<p>HOME > 관광지 > 자만벽화마을</p>
+    	</div>
+    	
+    	<section>
+    		<div id="section_1">
+    			<h2>자만벽화마을</h2>	
+    		</div>
+    		
+    		<div id="section_2">
+    			<div class="s2">
+    				<div class="s2_img">
+    					<img src="images/bh/bh1.png" alt="">
+    				</div>
+    			</div>
+    		</div>
+    		
+    		<div id="section_3">
+    			<div class="s3">
+    				<div class="s3_bxtxt wow slideInLeft">
+    					<h3>전동성당</h3>
+    					<p>전라북도 전주의 대표적인 여행코스로 자리잡은 자만 벽화마을은 사람들의 발길이 닿지 않던 달동네였으나 2012년 마을 담벼락에 벽화를 그려 놓은 것이 계기가 되어 관광객들이 찾아들게 되었고 지금은 하루에도 수백명의 관광객들이 다녀가는 전주여행에 있어 필수 코스로 자리 잡게 된 곳이다.</p>
+    				</div>
+    				<div class="s3_onlytxt wow slideInRight" data-wow-delay = "0.3s">
+    					<p>
+    				        센과 치히로의 행방불명에 등장하는 열차를 그려놓은 벽이 유명하다. 이곳 역시 게스트하우스나 멋진 공예품 가게가 아기자기 모인 곳으로 한옥마을과 함께 꼭 돌아봐야할 코스이다.
+    					</p>
+    					<p>
+    						조선 태조 이성계의 선조 목조 이안사가 살던 곳으로, 자만동 금표라고 하여 구한말 대한제국 고종황제가 국권피탈시기에 쓰라린 마음을 부여잡고 조상들의 흔적과 나라의 역사를 잊지 않고 기념하고자 잡인들이나 유례없이 떠돌던 백성들이 함부로 들어와 살지 못하게 옆의 이목대와 함께 비표를 세워 성역 비슷하게 취급되던 곳이었다.
+    					</p>
+    					<p>
+    						아쉬운 것은 이런 역사가 서린 곳을 페인트 벽화만 그려 놓고 벽화마을이라 하며 마을의 유래나 역사적 설명이 부족하다는 것이다.
+    					</p>
+    				</div>
+    				
+    				<div class="s3_2img">
+    					<ul>
+    						<li><img src="images/bh/bh2.png" alt=""></li>
+    						<li><img src="images/bh/bh3.png" alt=""></li>
+    					</ul>
+    				</div>
+    				
+    				<div class="s3_2txt wow fadeInUp">
+    					<p>조용히 산책하다 보면 태조 이성계의 4대 목조 이안사가 살았던 곳을 표시한 자만 동금표와 푸른 하늘과 함께 전주 시내를 한눈에 살펴볼 수 있는 벽 근처에 있는 오목대와 이목대가 있어 문화재 탐방코스로도 많은 호응을 얻고 있다.</p>
+    				</div>
+    				
+    				
+    				
+    				
+    				
+    			 <div id="section_4">
+    			 	<div class="swiper-container sub">
+    			 	    <div class="swiper-wrapper sub">
+    			 	      <div class="swiper-slide sub"><img src="images/bh/bh4.png" alt="">
+    			 	      <div class="swtxt1">
+    			 	      추억의 만화골목으로 들어갈 수 있는 입구이다.
+    			 	      </div></div>
+    			 	      <div class="swiper-slide sub"><img src="images/bh/bh5.png" alt="">
+    			 	      <div class="swtxt1">
+    			 	      	달동네 커피샵의 모습
+    			 	      </div></div>
+    			 	      <div class="swiper-slide sub"><img src="images/bh/bh6.png" alt="">
+    			 	      <div class="swtxt1">
+    			 	          아기자기한 사진으로 사진명소로 각광받고 있다.
+    			 	      </div></div>
+    			 	      <div class="swiper-slide sub"><img src="images/bh/bh7.png" alt="">
+    			 	      <div class="swtxt1">
+    			 	       센과 치히로가 그려져 있는 벽화로 맛있는 토스트를 판매하는 음식점이 함께 있다.
+    			 	      </div></div>
+    			 	    </div>
+    			 	    <div class="swiper-button-next sub"></div>
+    			 	    <div class="swiper-button-prev sub"></div>
+    			 	  </div>
+    			 </div>
+
+   <script>
+    var swiper = new Swiper('.swiper-container.sub', {
+      spaceBetween: 0,
+      centeredSlides: true,
+	  loop:true,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next.sub',
+        prevEl: '.swiper-button-prev.sub',
+      },
+    });
+  </script>			
+    	
+    				
+    				
+    				
+    				
+    				
+    				
+    			</div>		
+    	</div>
+	
+    	</section>
+
+  
+  	
+      
+      
+
+		
+
+	<footer id="footer"></footer>
+	
+	
+	<script>
+		$(document).ready(function(){
+			
+				$(".instagram").mouseover(function(){
+				$(".in").css("opacity","1");
+			});
+			
+			$(".instagram").mouseleave(function(){
+				$(".in").css("opacity","0");
+			});
+			
+			$(".twitter").mouseover(function(){
+				$(".tw").css("opacity","1");
+			});
+			
+			$(".twitter").mouseleave(function(){
+				$(".tw").css("opacity","0");
+			});
+			
+			$(".youtube").mouseover(function(){
+				$(".yu").css("opacity","1");
+			});
+			
+			$(".youtube").mouseleave(function(){
+				$(".yu").css("opacity","0");
+			});
+			
+			$(".facebook").mouseover(function(){
+				$(".fb").css("opacity","1");
+			});
+			
+			$(".facebook").mouseleave(function(){
+				$(".fb").css("opacity","0");
+			});
+			$(".m_qt").click(function(){
+				$("html,body").animate({scrollTop:0},500);
+			});
+	
+		});
+		
+		
+	</script>
+	
+	
+</body>
+</html>

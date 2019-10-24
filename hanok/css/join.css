@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+
+#cvcv {position: relative; height: 80px; width: 100%; }
+
+#join_area {position: relative; max-width: 1200px; margin: 0 auto; margin-top: 7%; margin-bottom: 7%;}
+#join_area::after {content:""; display: block; clear: both;}
+#join_area h2 {text-align: center; font-size: 34px;}
+.maintxt {text-align: center; font-size: 24px; margin-top: 20px;}
+
+/*왼쪽이미지*/
+.join_img {position: relative; width: 50%; float:left; margin-top: 7%}
+.join_img img {width: 100%; vertical-align: bottom; }
+.join_img h3 {position: absolute; top: 30%; color: white; font-size: 26px; padding-left: 5%;}
+.join_img h3:after {display: block; content:""; height: 3px; width: 20%; background: white; margin-top: 10%;}
+.join_img p {position: absolute; top: 45%; color: white; font-size: 18px; padding-left: 5%;}
+
+/*오른쪽 로그인박스*/
+.join_form {position: relative; width: 50%; float:left; margin-top: 7%;}
+.join_box {position: relative; width: 60%; margin: 0 auto; margin-top: 5%;}
+.join_box .tit {font-size: 32px;}
+.input_name {margin-top: 5%;}
+.input_name .name {width: 100%; padding: 3.5% 3.5%; border: 1px solid #632528; border-radius: 5px;}
+.name::placeholder {font-family: "NanumSquareR"; font-size: 16px;}
+
+.input_email {margin-top: 5%;}
+.input_email .email {width: 100%; padding: 3.5% 3.5%;  border: 1px solid #632528; border-radius: 5px;}
+.email::placeholder {font-family: "NanumSquareR"; font-size: 16px;}
+
+.input_number {margin-top: 5%;}
+.input_number .number {width: 100%; padding: 3.5% 3.5%;  border: 1px solid #632528; border-radius: 5px;}
+.number::placeholder {font-family: "NanumSquareR"; font-size: 16px;}
+
+.input_pw {margin-top: 5%;}
+.input_pw .pw {width: 100%; padding: 3.5% 3.5%;  border: 1px solid #632528; border-radius: 5px;}
+.pw::placeholder {font-family: "NanumSquareR"; font-size: 16px;}
+
+.input_pwck {margin-top: 5%;}
+.input_pwck .pwck {width: 100%; padding: 3.5% 3.5%;  border: 1px solid #632528; border-radius: 5px;}
+.pwck::placeholder {font-family: "NanumSquareR"; font-size: 16px;}
+
+.joinbutton {margin-top: 15%; display: block; width: 100%; padding: 3.5% 3.5%; text-align: center; border-radius: 5px; font-size: 18px; border: none; font-family: 'NanumSquareB'; background: #632528; color: white;}
+
+.account {display: block; width: 100%; padding: 3.5% 3.5%; border: 1px solid #632528; background: #632528; text-align: center; border-radius: 5px; font-size: 16px; margin-top: 15px; color: white;}
+.account_bold {font-weight: bold; border-bottom: 1px solid white;}
+
+
+
+
+@media all and (min-width:800px) and (max-width:1199px){
+    .join_img h3 {top: 30%; color: white; font-size: 24px; padding-left: 5%;}
+    .join_img h3:after {width: 15%;}
+    .join_img p {top: 47%; color: white; font-size: 15px; padding-left: 5%;}
+    .join_box {width: 70%;}
+    .join_box .tit {font-size: 30px;}
+    .joinbutton {font-size: 16px; margin-top: 10%;}
+    .account {font-size: 16px;}
+    .account_bold {font-size: 16px;}
+}
+
+@media all and (min-width:401px) and (max-width:800px){
+    #join_area {margin-top: 15%; margin-bottom: 15%;}
+    #join_area h2 {font-size: 22px;}
+    .maintxt {font-size: 15px;}
+    .join_img {display: none;}
+    .join_form {width: 100%;}
+    .join_box .tit {font-size: 20px;}
+    .name::placeholder {font-size: 14px;}
+    .email::placeholder {font-size: 14px;}
+    .number::placeholder {font-size: 14px;}
+    .pw::placeholder {font-size: 14px;}
+    .pwck::placeholder {font-size: 14px;}
+    .joinbutton {font-size: 14px;}
+    .account {font-size: 14px;}
+    .account_bold {font-size: 14px;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

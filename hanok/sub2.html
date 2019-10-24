@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>전동성당</title>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/sub2.css">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo:400,700&display=swap" rel="stylesheet">
+    
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+    	new WOW().init();
+    </script>
+	
+
+	
+	<script type="text/javascript">
+
+		$(document).ready(function(){
+			
+		 $("header").load("index_header.html");
+			
+            $(".quick_top").css({"opacity":"0","transition":"0.5s"})
+			var menu = $(".quick_top");
+            var contents = $(".scroll_num");
+            menu.click(function(event) {
+                event.preventDefault(); /*기존의 성질을 삭제*/
+
+                var tg = $(this);
+                var i = tg.index();
+
+                var section = contents.eq(i);
+                var tt = section.offset().top;
+
+
+
+                $('html, body').stop().animate({
+                    scrollTop: 0
+                }, 1000);
+            });
+
+            $(document).scroll(function() {
+                var sct = $(document).scrollTop();
+
+                contents.each(function() {
+                    var tg = $(this);
+                    var i = tg.index();
+
+                    if (tg.offset().top <= sct) {
+
+
+                        if (i == 0) {
+                            
+							$(".quick_top").css({"opacity":"0","transition":"0.5s"})
+                        }
+                        if (i > 0) {
+							$(".quick_top").css({"opacity":"1","transition":"0.5s"})
+                    
+                        }
+                    }
+
+                });
+            });
+			
+		
+			
+		});
+		
+		
+		$(document).ready(function(){
+			$("footer").load("index_footer.html");
+		});
+		
+		
+	
+	</script>
+	
+	
+</head>
+<body>
+	<!--header-->
+	<div id="cvcv">
+		<header class="scroll_num"></header>
+		    	<div class="quick_menu">
+		    		<ul class="quick_icon">
+		    			<li class="instagram">
+		    				<a href="#" class="insta"><i class="fa fa-instagram"></i></a>
+		    				<span class="quick_txt in">인스타그램</span>
+		    			</li>
+		    			<li class="twitter">
+		    				<a href="#" class="twit" ><i class="fa fa-twitter"></i></a>
+		    				<span class="quick_txt tw">트위터</span>
+		    			</li>
+		    			<li class="youtube">
+		    				<a href="#" class="youtu"><i class="fa fa-youtube"></i></a>
+		    				<span class="quick_txt yu">유튜브</span>
+		    			</li>
+		    			<li class="facebook">
+		    				<a href="#" class="fabook"><i class="fa fa-facebook-square"></i></a>
+		    				<span class="quick_txt fb">페이스북</span>
+		    			</li>
+		    		</ul>
+		    		<div class="quick_top">TOP</div>
+		    	</div>
+		    	<div class="m_qt">TOP</div>
+	</div>
+    	
+    	<div class="t_bg scroll_num">
+    		<h2>관광지</h2>
+    		<p>HOME > 관광지 > 전동성당</p>
+    	</div>
+    	
+    	<section>
+    		<div id="section_1">
+    			<h2>전동성당</h2>	
+    		</div>
+    		
+    		<div id="section_2">
+    			<div class="s2">
+    				<div class="s2_img">
+    					<img src="images/jdsd2.png" alt="">
+    				</div>
+    			</div>
+    		</div>
+    		
+    		<div id="section_3">
+    			<div class="s3">
+    				<div class="s3_bxtxt wow slideInLeft">
+    					<h3>전동성당</h3>
+    					<p>현재 전주시 안에 세워진 가장 오래된 성당이자, 호남 전체에서 최초로 세워진 로마네스크 양식 건물이다. 1937년에서 1957년까지 천주교 전주교구의 주교좌성당이었으며, 건축물의 아름다움으로 인해 영화의 촬영지나 결혼식 장소로 자주 쓰이기도 한다. 본당의 수호 성인은 성 프란치스코 하비에르이다.</p>
+    				</div>
+    				<div class="s3_onlytxt wow slideInRight" data-wow-delay = "0.3s">
+    					<p>
+    						원래 전동성당이 위치한 자리는 풍남문의 밖으로 1791년 신해박해 때 한국 교회 최초의 순교자인 윤지충 바오로을 비롯하여 그의 외종형 권상연 야고보이, 1801년 신유박해 때에는 유항검 아우구스티노
+유관검 형제가 육시형을, 윤지헌 프란치스코 , 김유산 토마스, 이우집 등이 교수형을 당한 등 호남 지역의 많은 가톨릭 신자가 순교한 자리였다.
+    					</p>
+    					<p>
+    						본당이 처음 생겼을 때에 전주읍성 주변에 신자는 거의 없었고, 주로 산골인 대승리, 고산 되재, 천호동, 배재 등지에 신자가 밀집해 있었으나, 1894년 동학 농민 운동이 일어나는 등 여러 사건이 일어나면서 신자의 수가 급격히 증가하였다.
+    					</p>
+    					<p>
+    						따라서 기존의 성당보다 더 큰 성당의 필요성이 대두되었고, 이후 1908년 명동성당의 내부를 건축한 프와넬 신부의 설계로 성당이 착공되었다. 성당은 1914년에 비로소 외관 공사가 끝났으며, 이후로도 계속 공사가 진행되어 1931년에 완공되었고,
+그 해 6월 18일에 대구대목구의 드망즈 교구장을 주례로 하여 축성식을 가졌다.
+    					</p>
+    				</div>
+    				
+    				<div class="s3_2img">
+    					<ul>
+    						<li><img src="images/jdsd4.jpg" alt=""></li>
+    						<li><img src="images/jdsd8.png" alt=""></li>
+    					</ul>
+    				</div>
+    				
+    				<div class="s3_2txt wow fadeInUp">
+    					<p>전동성당은 호남 지역 최초의 서양식 건물이다. 로마네스크 양식 건물이며, 중앙의 종탑과 양쪽 계단에는 비잔틴 양식의 뾰족 돔을 올렸으며, 성당 내부의 석조 기둥에도 비잔틴 양식이 녹아 있다. 
+한국의 교회 건축물 중 곡선미가 가장 아름답고 웅장하며 화려한 건물로 손꼽히고 있다.
+
+성당은 화강암을 주춧돌로 하여 붉은 벽돌로 지어졌다. 주춧돌인 화강암은 착공 당시인 1908년에 대한제국을 간접 통치하고 있던 일본 제국 통감부가 헐은 전주읍성의 풍남문 인근 성벽 돌을 이용하였다.
+ 성당을 구성하는 벽돌의 일부도 헐린 성벽에서 나온 흙을 구워 만들었다. 나머지 석재와 목재들은 각각 익산시 황등면의 채석장과 승암산의 목재를 사용하였다. 1908년에 건축을 시작하여 1931년에 최종 완공되었다.
+
+함께 있는 전동성당 사제관은 전라북도 문화재자료 제178호로 지정되어 있다.</p>
+    				</div>
+    				
+    				
+    				
+    				
+    				
+    			 <div id="section_4">
+    			 	<div class="swiper-container sub">
+    			 	    <div class="swiper-wrapper sub">
+    			 	      <div class="swiper-slide sub"><img src="images/banner1.png" alt="">
+    			 	      <div class="swtxt1">
+    			 	      한옥에는 현대 건축에서 생기는 공해가 거의 없다. 한옥건물에 쓰인 재료들은 대부분 재활용이 가능하다.
+    			 	      </div></div>
+    			 	      <div class="swiper-slide sub"><img src="images/banner2.png" alt="">
+    			 	      <div class="swtxt1">
+    			 	      	우리 조상들은 자연과의 조화를 최고의 이상으로 삼았으며 이를 반영하여 자연에 순응하여 계획되었다.
+    			 	      </div></div>
+    			 	      <div class="swiper-slide sub"><img src="images/banner3.png" alt="">
+    			 	      <div class="swtxt1">
+    			 	      	온돌이 추위에 적응하기 위하여 발달, 마루는 더위에 적응하기 위하여 발달된 건축요소이다. 
+    			 	      </div></div>
+    			 	      <div class="swiper-slide sub"><img src="images/banner4.png" alt="">
+    			 	      <div class="swtxt1">
+    			 	       풍수에서는 특정 조건을 이룬 지역에는 땅의 생명력. 이처럼 땅의 축복을 받은 장소를 명당이라고 한다.
+    			 	      </div></div>
+    			 	    </div>
+    			 	    <div class="swiper-button-next sub"></div>
+    			 	    <div class="swiper-button-prev sub"></div>
+    			 	  </div>
+    			 </div>
+
+   <script>
+    var swiper = new Swiper('.swiper-container.sub', {
+      spaceBetween: 0,
+      centeredSlides: true,
+	  loop:true,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next.sub',
+        prevEl: '.swiper-button-prev.sub',
+      },
+    });
+  </script>			
+    	
+    				
+    				
+    				
+    				
+    				
+    				
+    			</div>		
+    	</div>
+	
+    	</section>
+
+  
+  	
+      
+      
+
+		
+
+	<footer id="footer"></footer>
+	
+	
+	<script>
+		$(document).ready(function(){
+			
+				$(".instagram").mouseover(function(){
+				$(".in").css("opacity","1");
+			});
+			
+			$(".instagram").mouseleave(function(){
+				$(".in").css("opacity","0");
+			});
+			
+			$(".twitter").mouseover(function(){
+				$(".tw").css("opacity","1");
+			});
+			
+			$(".twitter").mouseleave(function(){
+				$(".tw").css("opacity","0");
+			});
+			
+			$(".youtube").mouseover(function(){
+				$(".yu").css("opacity","1");
+			});
+			
+			$(".youtube").mouseleave(function(){
+				$(".yu").css("opacity","0");
+			});
+			
+			$(".facebook").mouseover(function(){
+				$(".fb").css("opacity","1");
+			});
+			
+			$(".facebook").mouseleave(function(){
+				$(".fb").css("opacity","0");
+			});
+			$(".m_qt").click(function(){
+				$("html,body").animate({scrollTop:0},500);
+			});
+	
+		});
+		
+		
+	</script>
+	
+	
+</body>
+</html>
