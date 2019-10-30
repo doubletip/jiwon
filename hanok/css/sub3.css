@@ -16,7 +16,7 @@ section {position: relative; width: 100%;}
 #section_2 {position: relative; width: 100%; max-width: 1400px; margin: 0 auto;}
 #section_2 .s2 {}
 #section_2 .s2 .s2_ggtb {margin-top: 3%;}
-#section_2 .s2 .s2_ggtb .ggn {font-size: 1.2vw; padding-bottom: 2%;}
+#section_2 .s2 .s2_ggtb .ggn {font-size: 1.2vw; padding-bottom: 2%; font-weight: bold;}
 .ggt , .ggb {text-align: center;}
 .ggt { }
 .ggt td {}
@@ -29,7 +29,7 @@ section {position: relative; width: 100%;}
 #section_3 h2:after {content:""; display: block; width: 15%; height: 1px; background: black; margin: 0 auto; margin-top: 2%;}
 #section_3 .s3 {width: 100%; margin:0 auto;}
 #section_3 .s3 .s3_pktb {margin-top: 3%;}
-#section_3 .s3 .s3_pktb .pkn {font-size: 1.2vw; padding-bottom: 2%;}
+#section_3 .s3 .s3_pktb .pkn {font-size: 1.2vw; padding-bottom: 2%; font-weight: bold;}
 .pkt , .pkb {text-align: center;}
 .ggt { }
 .ggt td {}
@@ -43,7 +43,7 @@ section {position: relative; width: 100%;}
 
 #section_4 .s4 {width: 100%; margin:0 auto;}
 #section_4 .s4 .s4_bustb {margin-top: 3%;}
-#section_4 .s4 .s4_bustb .busn {font-size: 1.2vw; padding-bottom: 2%;}
+#section_4 .s4 .s4_bustb .busn {font-size: 1.2vw; padding-bottom: 2%; font-weight: bold;}
 .bust , .busb {text-align: center;}
 .bust { }
 .bust td {}
@@ -161,10 +161,10 @@ section {position: relative; width: 100%;}
 #section_2 .s2 .s2_ggmap iframe{height: 300px;}
 #section_2 .s2 .s2_ggtb {margin-top: 3%;}
 #section_2 .s2 .s2_ggtb table {width: 95%; margin: 0 auto;}
-#section_2 .s2 .s2_ggtb .ggn {font-size: 1.7vw; padding-bottom: 2%; padding-left: 5%;}
+#section_2 .s2 .s2_ggtb .ggn {font-size: 1.7vw; padding-bottom: 5%; padding-left: 5%;}
 .ggt , .ggb {text-align: center;}
-.ggt > td > img {width: 50px; height: 50px;}
-.ggb > td {padding-top: 1.5%; padding-bottom: 1.5%; font-size: 1.4vw; line-height: 2.5vw;}
+.ggt > td > img {width: 30px; height: 30px;}
+.ggb > td {padding-top: 1.5%; padding-bottom: 1.5%; font-size: 1.4vw; line-height: 3.5vw;}
 	
 
 
@@ -173,10 +173,10 @@ section {position: relative; width: 100%;}
 #section_3 .s3 .s3_pkmap iframe {height: 300px;}
 #section_3 .s3 .s3_pktb {margin-top: 3%;}
 #section_3 .s3 .s3_pktb table {width: 95%; margin: 0 auto;}
-#section_3 .s3 .s3_pktb .pkn {font-size: 1.7vw; padding-bottom: 2%; padding-left: 5%;}
+#section_3 .s3 .s3_pktb .pkn {font-size: 1.7vw; padding-bottom: 5%; padding-left: 5%;}
 .pkt , .pkb {text-align: center;}
-.pkt > td > img {width: 50px; height: 50px;}
-.pkb > td {padding-top: 1.5%; padding-bottom: 1.5%; font-size: 1.4vw; line-height: 2.5vw;}
+.pkt > td > img {width: 30px; height: 30px;}
+.pkb > td {padding-top: 1.5%; padding-bottom: 1.5%; font-size: 1.4vw; line-height: 3.5vw;}
 	
 
 #section_4 > h2 {text-align: center; margin-top: 10%; margin-bottom: 5%; font-size: 2.3vw;}
@@ -185,10 +185,10 @@ section {position: relative; width: 100%;}
 #section_4 .s4 .s4_busmap iframe {height: 300px;}
 #section_4 .s4 .s4_bustb {margin-top: 3%;}
 #section_4 .s4 .s4_bustb table {width: 95%; margin: 0 auto; margin-bottom: 5%;}
-#section_4 .s4 .s4_bustb .busn {font-size: 1.7vw; padding-bottom: 2%; padding-left: 5%;}
+#section_4 .s4 .s4_bustb .busn {font-size: 1.7vw; padding-bottom: 5%; padding-left: 5%;}
 .bust , .busb {text-align: center;}
-.bust > td > img {width: 50px; height: 50px;}
-.busb > td {padding-top: 1.5%; padding-bottom: 1.5%; font-size: 1.4vw; line-height: 2.5vw;}
+.bust > td > img {width: 30px; height: 30px;}
+.busb > td {padding-top: 1.5%; padding-bottom: 1.5%; font-size: 1.4vw; line-height: 3.5vw;}
 	
 	
 }

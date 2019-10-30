@@ -131,7 +131,7 @@ section {position: relative; width: 100%;}
 #section_3 .s3 .s3_onlytxt {width: 100%; _background: red; float:left; padding-top: 5%; padding-right: 14%; padding-bottom: 5%; padding-left: 14%; color: black; font-size: 1.8vw;}
 	
 #section_3 .s3 .s3_2txt { padding-top: 5%; padding-left: 10%; padding-right: 10%; padding-bottom: 5%; font-size: 1.8vw; }
-	#section_3 .s3 .s3_2txt p { line-height: 3vw;}
+	#section_3 .s3 .s3_2txt p { line-height: 3.5vw;}
 	
 	.swtxt1 {position: absolute; bottom: -0%; left: 0; background: rgba(0,0,0,0.3); z-index: 999; line-height: 10vw; width: 100%; border-top: 4px solid #251e1e; color: #fff; font-size: 2vw;}
 	
