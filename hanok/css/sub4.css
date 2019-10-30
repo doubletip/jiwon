@@ -4,7 +4,7 @@
 body {overflow-x: hidden; overflow-y: auto;}
 #cvcv {position: relative; height: 80px; width: 100%; }
 
-.t_bg{position: relative; width: 100%; height: 400px; background: url(../images/asdf.jpg) no-repeat; z-index: 10; background-attachment: fixed; background-size: cover; background-position: bottom;}
+.t_bg{position: relative; width: 100%; height: 400px; background: url(../images/attach.png) no-repeat; z-index: 10; background-attachment: fixed; background-size: cover; background-position: bottom;}
 .t_bg h2 {text-align: center; padding-top: 130px; color: white; font-size: 2vw;}
 .t_bg p {text-align: center; padding-top: 90px; color: white; font-size: 1.5vw; }
 
@@ -78,7 +78,7 @@ section {position: relative; width: 100%;}
 
 
 @media screen and (min-width:800px) and (max-width:1199px){
-	.t_bg{position: relative; width: 100%; height: 300px; background: url(../images/asdf.jpg) center center no-repeat; z-index: 10;}
+	.t_bg{position: relative; width: 100%; height: 300px; background: url(../images/attach.png) center center no-repeat; z-index: 10;}
 	.t_bg h2 {text-align: center; padding-top: 100px; color: white; font-size: 2.5vw; }
 	.t_bg p {text-align: center; padding-top: 60px; color: white; font-size: 1.5vw;}
 	
@@ -124,9 +124,9 @@ section {position: relative; width: 100%;}
 }
 
 @media all and (min-width:401px) and (max-width:800px){
-	.t_bg{position: relative; width: 100%; height: 200px; background: url(../images/asdf.jpg) center center no-repeat; z-index: 10;}
-	.t_bg h2 {text-align: center; padding-top: 60px; color: white; font-size: 2.5vw;}
-	.t_bg p {text-align: center; padding-top: 30px; color: white; font-size: 1.5vw; }
+	.t_bg{position: relative; width: 100%; height: 200px; background: url(../images/attach.png) center center no-repeat; z-index: 10;}
+	.t_bg h2 {text-align: center; padding-top: 60px; color: white; font-size: 20px;}
+	.t_bg p {text-align: center; padding-top: 30px; color: white; font-size: 18px; }
 	
 
 	#section_1 > h2 {text-align: center; margin-top: 10%; margin-bottom: 5%; font-size: 2.3vw;}

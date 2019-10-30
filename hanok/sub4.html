@@ -10,9 +10,8 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/sub4.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
-    
     <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
     
     <script src="js/prefixfree.min.js"></script>
     <script src="js/jquery-3.4.1.min.js"></script>
@@ -35,7 +34,8 @@
         $(".n4").hide();
         $(".n5").hide();
         
-        $(".front").click(function(){
+        $(".front").click(function(e){
+            e.preventDefault();
             $(".n1").show();
             $(".num_1").addClass("onClick");
             $(".num_2").removeClass("onClick");
@@ -48,7 +48,8 @@
             $(".n5").hide();
         });
         
-        $(".prev").click(function(){
+        $(".prev").click(function(e){
+            e.preventDefault();
             switch(i){
                 case 1:
                     i = 0;
@@ -106,7 +107,8 @@
                     
         });
         
-        $(".num_1").click(function(){
+        $(".num_1").click(function(e){
+            e.preventDefault();
             i = 0;
             $(".n1").show();
             $(".num_1").addClass("onClick");
@@ -119,7 +121,8 @@
             $(".n4").hide();
             $(".n5").hide();
         });
-        $(".num_2").click(function(){
+        $(".num_2").click(function(e){
+            e.preventDefault();
             i = 1;
             $(".n2").show();
             $(".num_2").addClass("onClick");
@@ -132,7 +135,8 @@
             $(".n4").hide();
             $(".n5").hide();
         });
-        $(".num_3").click(function(){
+        $(".num_3").click(function(e){
+            e.preventDefault();
             i = 2;
             $(".n3").show();
             $(".num_3").addClass("onClick");
@@ -145,7 +149,8 @@
             $(".n4").hide();
             $(".n5").hide();
         });
-        $(".num_4").click(function(){
+        $(".num_4").click(function(e){
+            e.preventDefault();
             i = 3;
             $(".n4").show();
             $(".num_4").addClass("onClick");
@@ -158,7 +163,8 @@
             $(".n3").hide();
             $(".n5").hide();
         });
-        $(".num_5").click(function(){
+        $(".num_5").click(function(e){
+            e.preventDefault();
             i = 4;
             $(".n5").show();
             $(".num_5").addClass("onClick");
@@ -172,7 +178,8 @@
             $(".n4").hide();
         });
         
-        $(".next").click(function(){
+        $(".next").click(function(e){
+            e.preventDefault();
             switch(i){
                 case 0:
                     i = 1;
@@ -230,7 +237,8 @@
                     
         });
         
-        $(".back").click(function(){
+        $(".back").click(function(e){
+            e.preventDefault();
             $(".n5").show();
             $(".num_5").addClass("onClick");
             $(".num_1").removeClass("onClick");
@@ -348,7 +356,7 @@
     		</div>
     		
     		<div id="section_2">
-    			<div class="searchbox">
+               <div class="searchbox">
     				<form action="post" class="searcharea">
     					<fieldset>
     						<legend>게시물검색</legend>
@@ -675,6 +683,8 @@
     					</tr>
     				</tbody>
     			</table>
+    			
+    			
     			
     			<div class="page_num">
     				<a href="#" class="front">

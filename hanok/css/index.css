@@ -67,17 +67,16 @@
 .quick_menu ul li {display: block; padding:15px 15px;}
 .quick_menu ul li a {position: relative;}
 .quick_menu ul li .quick_txt {position: absolute; width: 90px; height: 30px; line-height: 30px; background: #632528; text-align: center; color: white; left: -100px; transition: 0.5s; font-size: 14px; _transform: translate3d(10px, 0px, 0px); border-radius: 15px;}
-.insta {font-size: 18px;}
-.twit {font-size: 18px;}
-.youtu {font-size: 18px;}
-.fabook {font-size: 18px;}
+.insta {font-size: 24px;}
+.twit {font-size: 24px;}
+.youtu {font-size: 24px;}
+.fabook {font-size: 24px;}
 .in {opacity:0;}
 .tw {opacity:0;}
 .yu {opacity:0;}
 .fb {opacity:0;}
 
-.quick_menu .quick_top {width: 35px; height: 35px; border-radius: 20px; color: white; background: #632528; text-align: center; position: absolute; margin-top: 20px; line-height: 35px; right: 0; margin-right: 5px; font-size: 14px;}
-
+.quick_menu .quick_top {width: 35px; height: 35px; border-radius: 20px; color: white; text-align: center; position: absolute; margin-top: 20px; line-height: 35px; right: 0px; margin-right: 5px; font-size: 14px; background:#632528; }
 /*blink*/
 .wrap{height: 730px; width: 100%;position: relative; top: 0; left: 0; transition: 0.5s;}
 
@@ -144,7 +143,7 @@ content {position: relative; width: 100%;}
   left:0;
   width:100%;
   height:2px;
-  background:black;
+  background:#632528;
   transform-style:linear;
   transition-property:height,width;
   transition-delay:0.3s,0.7s;
@@ -162,7 +161,7 @@ content {position: relative; width: 100%;}
   right:0;
   width:100%;
   height:100%;
-  background:blue;
+  background:#4a1c1e;
   transform:scaleX(0);
   transition:0.3s;
   transition-delay:0s;

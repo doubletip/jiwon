@@ -16,7 +16,7 @@
 }
 
 
-header {position: absolute; height: 80px; width: 100%; background: white; transition: 0.5s; top: 0; left: 0; z-index: 9999; font-family:'NanumSquareB';}
+header {position: fixed; height: 80px; width: 100%; background: white; transition: 0.5s; top: 0; left: 0; z-index: 9999; font-family:'NanumSquareB';}
 header #nav {max-width: 1400px; height: 80px; position: relative; margin: 0 auto;}
 header #nav h1{position: absolute; left: 0; top: 5px;}
 
@@ -26,7 +26,6 @@ header #nav #gnb ul:after {display: block; clear: both; content:"";}
 header #nav #gnb > ul > li {float:left; width: 25%; text-align: center; padding-top: 28px; box-sizing: border-box;}
 header #nav #gnb > ul > li > a {font-size: 20px; font-weight: bold; display: inline-block;}
 .t_line {width:100%; display:inline-block;border-bottom: 2px solid #632528; transition:all .5s; opacity: 0; text-indent: -9999px; padding-bottom: 6px;}
-/*.t_line> a {opacity:1 !important;}*/
 header #nav #gnb > ul > li:hover > .t_line{opacity: 1;}
 
 

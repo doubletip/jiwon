@@ -2,14 +2,11 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>편의시설</title>
+    <title>포토</title>
     <meta name="viewport" content="width=device-width , initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/aos.css">
-    <link rel="stylesheet" href="css/sub3.css">
+    <link rel="stylesheet" href="css/sub4-2.css">
     <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
     
@@ -17,12 +14,28 @@
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/swiper.min.js"></script>
     <script src="js/wow.min.js"></script>
+    
     <script>
     	new WOW().init();
+        
+        $(function(){
+           $(".photo_txt").hide();
+           
+                    
+           $(".photo ul li").mouseenter(function(){
+               var i = $(this).index();
+               var aa = "a"+i;
+               $("."+aa).fadeIn();
+           });
+            $(".photo ul li").mouseleave(function(){
+              var i = $(this).index();
+             var aa = "a"+i;
+               $("."+aa).fadeOut();
+           });
+        });
     </script>
 	
 
-	
 	<script type="text/javascript">
 		$(document).ready(function(){
 			
@@ -114,97 +127,93 @@
 	</div>
     	
     	<div class="t_bg scroll_num">
-    		<h2>편의시설</h2>
-    		<p>HOME > 편의시설 </p>
+    		<h2>고객서비스</h2>
+    		<p>HOME > 고객서비스 > 포토 </p>
     	</div>
     	
     	<section>
     		<div id="section_1">
-    			<h2>관광안내소</h2>	
+    			<h2>포토</h2>	
     		</div>
     		
     		<div id="section_2">
-    			<div class="s2">
-    				<div class="s2_ggmap">
-    					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2720.6289532637015!2d127.15291398283561!3d35.814873800876434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3570236212eebd4b%3A0x8c545232fd41eb0a!2z7KCE7KO87ZWc7Jil66eI7J2E6rSA6rSR7JWI64K07IaM!5e0!3m2!1sko!2skr!4v1570502004529!5m2!1sko!2skr" width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-    				</div>
-    				
-    				<div class="s2_ggtb">
-    					<div class="ggn"><p>전주한옥마을 셔틀버스</p></div>
-    					<table border="0" width="100%">
-    						<tr class="ggt">
-    							<td><img src="images/location.png" alt=""></td>
-    							<td><img src="images/call.png" alt=""></td>
-    							<td><img src="images/time.png" alt=""></td>
-    							<td><img src="images/info.png" alt=""></td>
-    						</tr>
-    						<tr class="ggb">
-    							<td>완산구 기린대로 99
-(한옥마을1주차장)</td>
-    							<td>063-282-1330</td>
-    							<td>09:00~18:00
-(연중무휴)</td>
-    							<td>한옥마을 길 안내, 해설투어, 수유실,
-유실물 보관, 유모차 및 휠체어 대여
-관광통역안내사(영어2,중국어1,스페인어1)</td>
-    						</tr>
-    					</table>
-    				</div>
-    			</div>
-    					
-    			
-    		</div>
-    		
-    		<div id="section_3">
-    			<h2>공영주차장</h2>
-    			<div class="s3">
-    				<div class="s3_pkmap">
-    					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3235.270051019279!2d127.1527984686025!3d35.8178494499872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357023638d54a943%3A0xbf1a141083df4781!2z7ZWc7Jil66eI7J2E7KO87LCo7J6l!5e0!3m2!1sko!2skr!4v1570502079902!5m2!1sko!2skr" width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-    				</div>
-    				
-    				<div class="s3_pktb">
-    					<div class="pkn"><p>전주한옥마을 주차장안내</p></div>
-    					<table border="0" width="100%">
-    						<tr class="pkt">
-    							<td><img src="images/location.png" alt=""></td>
-    							<td><img src="images/info.png" alt=""></td>
-    						</tr>
-    						<tr class="pkb">
-    							<td>전주시 완산구 기린내로 99</td>
-    							<td>24시간 연중무휴, 기본 30분 1,000원, 추가 15분마다 500원/일일최고 12,000</td>
-    						</tr>
-    					</table>
-    				</div>
-    				
-    			</div>
-    		</div>
-    		
-    		<div id="section_4">
-    			<h2>전주한옥마을 셔틀버스</h2>
-    			<div class="s4">
-    				<div class="s4_busmap">
-    					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2720.630072343733!2d127.15213992575814!3d35.814841141521065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357023620cdd845f%3A0xc14f22d8552aff0!2z7YOc7KGw66Gc7Im87YSw!5e0!3m2!1sko!2skr!4v1570504141877!5m2!1sko!2skr" width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-    				</div>
-    				
-    				<div class="s4_bustb">
-    					<div class="busn"><p>전주한옥마을 셔틀버스</p></div>
-    					<table border="0" width="100%">
-    						<tr class="bust">
-    							<td><img src="images/time.png" alt=""></td>
-    							<td><img src="images/ibus.png" alt=""></td>
-    							<td><img src="images/map.png" alt=""></td>
-    						</tr>
-    						<tr class="busb">
-    							<td>10:00 ~ 18:40</td>
-    							<td>평일(월~금) 1대, 토,일요일 및 공휴일 4대<br>평일:30분 간격, 토,일요일 및 공휴일:탄력운영</td>
-    							<td>대성동 → 자만벽화마을(경유) → 태조로 → 대성동</td>
-    						</tr>
-    					</table>
-    				</div>
-    				
-    			</div>
-    		</div>
-    		
+               <div class="photo">
+                   <ul>
+                       <li>
+                           <div class="photo_imgbx">
+                               <img src="images/photo/photo_1.jpg" alt="">
+                           </div>
+                           <div class="photo_txt a0">
+                               <p>전주한옥마을의 멋진 전경 모습</p>
+                           </div>
+                       </li>
+                       <li>
+                           <div class="photo_imgbx">
+                               <img src="images/photo/photo_2.jpg" alt="">
+                           </div>
+                           <div class="photo_txt a1">
+                               <p>전주한옥마을 입구의 비석</p>
+                           </div>
+                       </li>
+                       <li>
+                           <div class="photo_imgbx">
+                               <img src="images/photo/photo_3.jpg" alt="">
+                           </div>
+                           <div class="photo_txt a2">
+                               <p>전동성당 앞</p>
+                           </div>
+                       </li>
+                       <li>
+                           <div class="photo_imgbx">
+                               <img src="images/photo/photo_4.jpg" alt="">
+                           </div>
+                           <div class="photo_txt a3">
+                               <p>풍남문의 야경</p>
+                           </div>
+                       </li>
+                       <li>
+                           <div class="photo_imgbx">
+                               <img src="images/photo/photo_5.jpg" alt="">
+                           </div>
+                           <div class="photo_txt a4">
+                               <p>천주교 전주교구 전동성당</p>
+                           </div>
+                       </li>
+                       <li>
+                          <div class="photo_imgbx">
+                                <img src="images/photo/photo_6.jpg" alt="">
+                           </div>
+                           <div class="photo_txt a5">
+                               <p>경기전</p>
+                           </div>
+                       </li>
+                       <li>
+                           <div class="photo_imgbx">
+                               <img src="images/photo/photo_7.jpg" alt="">
+                           </div>
+                           <div class="photo_txt a6">
+                               <p>벽화마을 하트벽</p>
+                           </div>
+                       </li>
+                       <li>
+                           <div class="photo_imgbx">
+                               <img src="images/photo/photo_8.jpg" alt="">
+                           </div>
+                           <div class="photo_txt a7">
+                               <p>벽화마을 드림캐쳐</p>
+                           </div>
+                       </li>
+                       <li>
+                           <div class="photo_imgbx">
+                               <img src="images/photo/photo_9.jpg" alt="">
+                           </div>
+                           <div class="photo_txt a8">
+                               <p>벽화마을 만화벽</p>
+                           </div>
+                       </li>
+                   </ul>
+               </div>
+            </div>
     	</section>
 
   

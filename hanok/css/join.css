@@ -10,9 +10,9 @@
 
 /*왼쪽이미지*/
 .join_img {position: relative; width: 50%; float:left; margin-top: 7%}
-.join_img img {width: 100%; vertical-align: bottom; }
+.join_img img {width: 100%; vertical-align: bottom; filter: brightness(0.5);}
 .join_img h3 {position: absolute; top: 30%; color: white; font-size: 26px; padding-left: 5%;}
-.join_img h3:after {display: block; content:""; height: 3px; width: 20%; background: white; margin-top: 10%;}
+.join_img h3:after {display: block; content:""; height: 3px; width: 50%; background: white; margin-top: 10%;}
 .join_img p {position: absolute; top: 45%; color: white; font-size: 18px; padding-left: 5%;}
 
 /*오른쪽 로그인박스*/
@@ -59,7 +59,7 @@
 }
 
 @media all and (min-width:401px) and (max-width:800px){
-    #join_area {margin-top: 15%; margin-bottom: 15%;}
+    #join_area {margin-top: 20%; margin-bottom: 20%;}
     #join_area h2 {font-size: 22px;}
     .maintxt {font-size: 15px;}
     .join_img {display: none;}
