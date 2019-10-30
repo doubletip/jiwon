@@ -414,10 +414,10 @@ content {position: relative; width: 100%;}
 	
 .detail {margin-top: 15px;}
 .detail a{ position:relative;
-  padding:10px 20px 10px 30px;
+  padding:10px 20px 10px 25px;
   color:black;
   text-decoration:none;
-  font-size:14px;
+  font-size:12px;
   letter-spacing:2px;
   text-transform:uppercase;
   border:1px solid black;
@@ -453,11 +453,11 @@ display: none;
 	
 .c3l_txt{position: absolute; top: 25%; left: 46%; color: #fff; font-size: 2.5vw;}
 .c3l_txt2{position: absolute; top: 40%; left: 13%; color: #fff; font-size: 2vw;}
-.c3l_tag {position: absolute; top: 60%; left: 40%; color: #fff; border: 1px solid white; padding: 10px 10px 10px 10px; font-size: 1.7vw;}
+.c3l_tag {position: absolute; top: 60%; left: 38%; color: #fff; border: 1px solid white; padding: 7px 7px 7px 7px; font-size: 1.7vw;}
 
 .c3r_txt{position: absolute; top: 25%; left: 47%; color: #fff; font-size: 2.5vw;}
 .c3r_txt2{position: absolute; top: 40%; left: 9%; color: #fff; font-size: 2vw;}
-.c3r_tag {position: absolute; top: 60%; left: 42%; color: #fff; border: 1px solid white; padding: 10px 10px 10px 10px; font-size: 1.7vw;}	
+.c3r_tag {position: absolute; top: 60%; left: 38%; color: #fff; border: 1px solid white; padding: 5px 5px 5px 5px; font-size: 1.7vw; }	
 		
 #content_3 {position: relative; margin: 0 auto; width: 100%; margin-top: 1%;}
 	
