@@ -58,7 +58,7 @@
     .account_bold {font-size: 16px;}
 }
 
-@media all and (min-width:401px) and (max-width:800px){
+@media all and (max-width:800px){
     #join_area {margin-top: 20%; margin-bottom: 20%;}
     #join_area h2 {font-size: 22px;}
     .maintxt {font-size: 15px;}
