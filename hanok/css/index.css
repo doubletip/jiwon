@@ -354,7 +354,7 @@ content {position: relative; width: 100%;}
 	
 }
 
-@media all and (min-width:401px) and (max-width:800px){
+@media all and (max-width:800px){
 	.wrap{height: 230px; transition: 0.5s;}
 	#content_1 {height: 300px;}
 		 .aos-item {
