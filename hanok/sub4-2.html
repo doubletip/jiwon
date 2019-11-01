@@ -32,6 +32,13 @@
              var aa = "a"+i;
                $("."+aa).fadeOut();
            });
+            
+            $(".more").click(function(e){
+                e.preventDefault();
+               $(".photo ul li:nth-child(odd)").css(
+"display","block"); 
+                $(".more").css("display","none");
+            });
         });
     </script>
 	
@@ -212,6 +219,10 @@
                            </div>
                        </li>
                    </ul>
+               </div>
+               
+               <div class="more">
+                   <p>더보기</p>
                </div>
             </div>
     	</section>

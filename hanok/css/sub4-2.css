@@ -23,6 +23,8 @@ section {position: relative; width: 100%;}
 .photo ul li img:hover {filter:brightness(0.5); transition: 0.3s; transform:scale(1.1); overflow: hidden;}
 .photo_txt {position: absolute; top:47%; color: red; width: 100%; text-align: center; font-size: 22px; color: white;} 
 
+.more {text-align: center; margin-top: 10px;}
+.more p {display: inline-block; border: 1px solid black; padding: 10px 10px; font-size: 12px; background: #632528; color: white;}
 
 @media screen and (min-width:1200px) and (max-width:1399px){
 	.t_bg h2 {text-align: center; padding-top: 130px; color: white; font-size: 2.5vw;}
