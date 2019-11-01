@@ -17,10 +17,8 @@ section {position: relative; width: 100%;}
 #section_2 .s2 {}
 #section_2 .s2 .s2_ggtb {margin-top: 3%;}
 #section_2 .s2 .s2_ggtb .ggn {font-size: 1.2vw; padding-bottom: 2%; font-weight: bold;}
-.ggt , .ggb {text-align: center;}
-.ggt { }
+.ggt , .ggb {text-align: center; width: 100%;}
 .ggt td {}
-.ggb {}
 .ggt > td > img {width: 80px; height: 80px;}
 .ggb > td {padding-top: 1.5%; padding-bottom: 1.5%; font-size: 0.9vw; line-height: 1.3vw;}
 
@@ -164,7 +162,7 @@ section {position: relative; width: 100%;}
 #section_2 .s2 .s2_ggtb .ggn {font-size: 15px; padding-bottom: 5%; padding-left: 5%;}
 .ggt , .ggb {text-align: center;}
 .ggt > td > img {width: 30px; height: 30px;}
-.ggb > td {padding-top: 1.5%; padding-bottom: 1.5%; font-size: 11px; line-height: 3.5vw;}
+.ggb > td {padding-top: 1.5%; padding-bottom: 4.5%; font-size: 11px; line-height: 3.5vw;}
 	
 
 

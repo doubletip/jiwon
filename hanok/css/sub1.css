@@ -105,11 +105,11 @@ section {position: relative; width: 100%;}
 	#section_1 > h2 {text-align: center; margin-top: 10%; margin-bottom: 5%; font-size: 14px;}
 	#section_1 h2:after {content:""; display: block; width: 15%; height: 1px; background: black; margin: 0 auto; margin-top:2%;}
 	.s1{position: relative; width: 80%; margin: 0 auto; }
-	.bgimage{position: relative; width: 100%; margin-bottom: 50%;}
+	.bgimage{position: relative; width: 100%; margin-bottom: 50%; left: 0%;}
 	.bgimage img {}
-	.s1_txt{position: absolute; z-index: 10; top: 80%; background: rgba(255,255,255,0.9);  width: 100%; padding: 3.74%; line-height: 3.4vw; font-size: 12px; left: 4%;}
+	.s1_txt{position: absolute; z-index: 10; top: 80%; background: rgba(255,255,255,0.9);  width: 100%; padding: 3.74%; line-height: 3.4vw; font-size: 12px; left: 0%;}
 	
-    #section_2 {margin-top: 40%;}
+    #section_2 {margin-top: 50%;}
 	
 	
 	.i4 {display: none;}

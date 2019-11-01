@@ -43,7 +43,7 @@ header #nav .nav_right li a:hover {color:#632528; font-weight: bold;}
 .h_menu {display: none;}
 
 
-.m_menu { width: 70%; position: absolute; z-index: 1; right: 0; top: 0; background: white; border: 1px solid black; display: none; border-right: none; border-top:none;}
+.m_menu { width: 100%; position: absolute; z-index: 1; right: 0; top: 0; background: white; border: 1px solid black; display: none; border-right: none; border-top:none; border-left: none;}
 .m_menu .m_top {height: 75px; background: #623d3f; color: white;}
 .m_menu .m_top .login {display: inline-block; padding-top: 25px; font-size: 15px; margin-left: 20px;}
 .m_menu .m_top .join {display: inline-block; padding-top: 25px; font-size: 15px; margin-left: 10px;}
@@ -87,6 +87,8 @@ header #nav .nav_right li a:hover {color:#632528; font-weight: bold;}
 	header #nav #gnb > ul > li > a {font-size: 16px;}
 	header #nav .nav_right {display: none;}
 	.h_menu {display: block; position: absolute; right: 20px; top: 15px;}
+    
+    .fa-instagram {font-size: 22px;}
 }
 
 
