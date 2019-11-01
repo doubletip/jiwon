@@ -465,6 +465,7 @@ display: none;
 	.quick_menu {display: none;}
 	.m_qt {position: fixed; width: 30px; height: 30px; color: white; background: #632528 ; z-index: 5753; bottom: 0; right:1%; display: block; border-radius: 30px; font-size: 12px; text-align: center; display: inline-block; margin-top: 10px; line-height: 30px;}
 
+.swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {bottom: 30px;}
 }
 
 
