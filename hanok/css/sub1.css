@@ -107,7 +107,7 @@ section {position: relative; width: 100%;}
 	.s1{position: relative; width: 80%; margin: 0 auto; }
 	.bgimage{position: relative; width: 100%; margin-bottom: 50%;}
 	.bgimage img {}
-	.s1_txt{position: absolute; z-index: 10; top: 80%; background: rgba(255,255,255,0.9);  width: 100%; padding: 3.74%; line-height: 2.9vw; font-size: 12px; left: 4%;}
+	.s1_txt{position: absolute; z-index: 10; top: 80%; background: rgba(255,255,255,0.9);  width: 100%; padding: 3.74%; line-height: 3.4vw; font-size: 12px; left: 4%;}
 	
     #section_2 {margin-top: 40%;}
 	
