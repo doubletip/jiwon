@@ -382,6 +382,7 @@ content {position: relative; width: 100%;}
 	z-index: 2;
 	top: 80px;
 	left: 0;
+    vertical-align: bottom;
     }
 	.s1_t {font-size: 20px;}
 	.s1_b {font-size: 14px; margin-top: 10px;}
@@ -437,7 +438,7 @@ display: none;
 }
 	
 
-#content_2 {position: relative; margin: 0 auto; width: 100%;  height: auto;_height: 400px; overflow: hidden; z-index: -16; margin-top: 1%;}
+#content_2 {position: relative; margin: 0 auto; width: 100%;  height: auto;_height: 400px; overflow: hidden; z-index: -16; margin-top: 0%;}
 #content_2 .c2 {width: 80%; margin: 0 auto; padding-top: 6%; display: block; position: relative;}
 #content_2 .c2 .c2_c {text-align: center; color: white; font-size: 2.5vw;}
 #content_2 .c2 .c2_cover {margin-top: 10%;}
@@ -459,7 +460,7 @@ display: none;
 .c3r_txt2{position: absolute; top: 40%; left: 9%; color: #fff; font-size: 2vw;}
 .c3r_tag {position: absolute; top: 60%; left: 38%; color: #fff; border: 1px solid white; padding: 5px 5px 5px 5px; font-size: 1.7vw; }	
 		
-#content_3 {position: relative; margin: 0 auto; width: 100%; margin-top: 1%;}
+#content_3 {position: relative; margin: 0 auto; width: 100%; margin-top: 0%;}
 	
 	.quick_menu {display: none;}
 	.m_qt {position: fixed; width: 30px; height: 30px; color: white; background: #632528 ; z-index: 5753; bottom: 0; right:1%; display: block; border-radius: 30px; font-size: 12px; text-align: center; display: inline-block; margin-top: 10px; line-height: 30px;}

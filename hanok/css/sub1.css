@@ -4,7 +4,7 @@
 
 #cvcv {position: relative; height: 80px; width: 100%; }
 
-.t_bg{position: relative; width: 100%; height: 400px; background: url(../images/attach.png) no-repeat; z-index: 10; background-attachment: fixed; background-size: cover; background-position: bottom;}
+.t_bg{position: relative; width: 100%; height: 400px; background: url(../images/spring.png) no-repeat; z-index: 10; background-attachment: fixed; background-size: cover; background-position: bottom;}
 .t_bg h2 {text-align: center; padding-top: 130px; color: white; font-size: 2vw;}
 .t_bg p {text-align: center; padding-top: 90px; color: white; font-size: 1.5vw; }
 
@@ -78,7 +78,7 @@ section {position: relative; width: 100%;}
 
 
 @media all and (min-width:800px) and (max-width:1199px){
-	.t_bg{position: relative; width: 100%; height: 300px; background: url(../images/attach.png) center center no-repeat; z-index: 10;}
+	.t_bg{position: relative; width: 100%; height: 300px; background: url(../images/spring.png) center center no-repeat; z-index: 10;}
 	.t_bg h2 {text-align: center; padding-top: 100px; color: white; font-size: 2.5vw; }
 	.t_bg p {text-align: center; padding-top: 60px; color: white; font-size: 1.5vw;}
 	
@@ -98,16 +98,16 @@ section {position: relative; width: 100%;}
 }
 
 @media all and (max-width:800px){
-	.t_bg{position: relative; width: 100%; height: 200px; background: url(../images/attach.png) center center no-repeat; z-index: 10;}
+	.t_bg{position: relative; width: 100%; height: 200px; background: url(../images/spring.png) center center no-repeat; z-index: 10;}
 	.t_bg h2 {text-align: center; padding-top: 60px; color: white; font-size: 20px;}
 	.t_bg p {text-align: center; padding-top: 30px; color: white; font-size: 18px; }
 	
-	#section_1 > h2 {text-align: center; margin-top: 10%; margin-bottom: 5%; font-size: 2vw;}
+	#section_1 > h2 {text-align: center; margin-top: 10%; margin-bottom: 5%; font-size: 14px;}
 	#section_1 h2:after {content:""; display: block; width: 15%; height: 1px; background: black; margin: 0 auto; margin-top:2%;}
-	.s1{position: relative; width: 70%; margin: 0 auto; }
+	.s1{position: relative; width: 80%; margin: 0 auto; }
 	.bgimage{position: relative; width: 100%; margin-bottom: 50%;}
 	.bgimage img {}
-	.s1_txt{position: absolute; z-index: 10; top: 80%; background: rgba(255,255,255,0.9);  width: 100%; padding: 3.74%; line-height: 2.9vw; font-size: 1.8vw; left: 4%; letter-spacing: 1px;}
+	.s1_txt{position: absolute; z-index: 10; top: 80%; background: rgba(255,255,255,0.9);  width: 100%; padding: 3.74%; line-height: 2.9vw; font-size: 12px; left: 4%;}
 	
     #section_2 {margin-top: 40%;}
 	
@@ -125,7 +125,9 @@ section {position: relative; width: 100%;}
 	.i8~.i8_txt8 {display: none;}
 	.i9~.i9_txt9 {display: none;}
 	
-	
+	.i1~.i1_txt1{ font-size: 10px; }
+    .i2~.i2_txt2{ font-size: 10px;}
+    .i3~.i3_txt3{ font-size: 10px; }
 	
 	
 	

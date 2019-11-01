@@ -60,7 +60,7 @@ header #nav .nav_right li a:hover {color:#632528; font-weight: bold;}
 .m_bottom ul {width: 100%;}
 .m_bottom ul:after {display: block; clear: both; content:"";}
 .m_bottom ul li {width: 25%; float:left; text-align: center;}
-.m_bottom ul li a {display: block; padding-top: 15px;}
+.m_bottom ul li a {display: block; padding-top: 20px;}
 
 @media all and (max-width:1399px){
 	header #nav h1{padding-left: 20px;}

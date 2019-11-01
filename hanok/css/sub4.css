@@ -4,7 +4,7 @@
 body {overflow-x: hidden; overflow-y: auto;}
 #cvcv {position: relative; height: 80px; width: 100%; }
 
-.t_bg{position: relative; width: 100%; height: 400px; background: url(../images/attach.png) no-repeat; z-index: 10; background-attachment: fixed; background-size: cover; background-position: bottom;}
+.t_bg{position: relative; width: 100%; height: 400px; background: url(../images/winter.png) no-repeat; z-index: 10; background-attachment: fixed; background-size: cover; background-position: bottom;}
 .t_bg h2 {text-align: center; padding-top: 130px; color: white; font-size: 2vw;}
 .t_bg p {text-align: center; padding-top: 90px; color: white; font-size: 1.5vw; }
 
@@ -129,7 +129,7 @@ section {position: relative; width: 100%;}
 	.t_bg p {text-align: center; padding-top: 30px; color: white; font-size: 18px; }
 	
 
-	#section_1 > h2 {text-align: center; margin-top: 10%; margin-bottom: 5%; font-size: 2.3vw;}
+	#section_1 > h2 {text-align: center; margin-top: 10%; margin-bottom: 5%; font-size: 14px;}
 	#section_1 h2:after {content:""; display: block; width: 14%; height: 1px; background: black; margin: 0 auto; margin-top:2%;}
 	
 	#section_2 .news {width: 90%; margin: 0 auto;}
@@ -137,14 +137,14 @@ section {position: relative; width: 100%;}
 	#section_2 .news thead tr {}
 	#section_2 .news thead tr td {font-weight: bold; font-size: 1.2vw; padding-top: 1%; padding-bottom: 1%; padding-right: 1%; padding-left: 1%; text-align: center;}
 	#section_2 .news thead tr td.hnumber {width: 15%;}
-	#section_2 .news thead tr td.hname {width: 70%;}
-	#section_2 .news thead tr td.hdate {width: 15%;}
+	#section_2 .news thead tr td.hname {width: 65%;}
+	#section_2 .news thead tr td.hdate {width: 20%;}
 	#section_2 .news tbody {margin: 0; padding: 0;}
 	#section_2 .news tbody tr {}
 	#section_2 .news tbody tr td {padding-top: 1.5%; padding-bottom: 1.5%;}
 	#section_2 .news tbody tr td.number {width: 13%; text-align: center; border-bottom: 1px solid grey; font-size: 1.2vw;}
-	#section_2 .news tbody tr td.name {width: 70%; text-align: left; padding-left: 2%; border-bottom: 1px solid grey; font-size: 1.2vw;}
-	#section_2 .news tbody tr td.date {width: 17%; text-align: center; border-bottom: 1px solid grey; font-size: 1.2vw;}
+	#section_2 .news tbody tr td.name {width: 65%; text-align: left; padding-left: 2%; border-bottom: 1px solid grey; font-size: 1.2vw;}
+	#section_2 .news tbody tr td.date {width: 22%; text-align: center; border-bottom: 1px solid grey; font-size: 1.2vw;}
     
     #section_2 .page_num .front {display: inline-block; width: 25px; height: 24px; padding-top: 5px; background: url(../images/front.png); position: relative; top: 10px; margin-right: 1%; background-size: cover;}
     
